@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.NodeAddress
 
 /// NodeAddress contains information for the node's address.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct NodeAddress {
     /// The node address.
     pub address: std::string::String,

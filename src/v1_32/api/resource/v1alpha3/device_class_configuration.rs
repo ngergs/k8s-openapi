@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha3.DeviceClassConfiguration
 
 /// DeviceClassConfiguration is used in DeviceClass.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct DeviceClassConfiguration {
     /// Opaque provides driver-specific configuration parameters.
     pub opaque: Option<crate::api::resource::v1alpha3::OpaqueDeviceConfiguration>,

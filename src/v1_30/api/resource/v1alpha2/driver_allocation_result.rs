@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha2.DriverAllocationResult
 
 /// DriverAllocationResult contains vendor parameters and the allocation result for one request.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct DriverAllocationResult {
     /// NamedResources describes the allocation result when using the named resources model.
     pub named_resources: Option<crate::api::resource::v1alpha2::NamedResourcesAllocationResult>,

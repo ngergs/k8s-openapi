@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.PodIP
 
 /// PodIP represents a single IP address allocated to the pod.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodIP {
     /// IP is the IP address assigned to the pod
     pub ip: std::string::String,

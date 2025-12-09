@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.networking.v1.IngressSpec
 
 /// IngressSpec describes the Ingress the user wishes to exist.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct IngressSpec {
     /// defaultBackend is the backend that should handle requests that don't match any rule. If Rules are not specified, DefaultBackend must be specified. If DefaultBackend is not set, the handling of requests that do not match any of the rules will be up to the Ingress controller.
     pub default_backend: Option<crate::api::networking::v1::IngressBackend>,

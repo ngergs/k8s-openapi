@@ -3,7 +3,7 @@
 /// ClaimSource describes a reference to a ResourceClaim.
 ///
 /// Exactly one of these fields should be set.  Consumers of this type must treat an empty object as if it has an unknown value.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ClaimSource {
     /// ResourceClaimName is the name of a ResourceClaim object in the same namespace as this pod.
     pub resource_claim_name: Option<std::string::String>,

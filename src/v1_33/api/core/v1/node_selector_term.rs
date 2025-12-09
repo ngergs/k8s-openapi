@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.NodeSelectorTerm
 
 /// A null or empty node selector term matches no objects. The requirements of them are ANDed. The TopologySelectorTerm type implements a subset of the NodeSelectorTerm.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct NodeSelectorTerm {
     /// A list of node selector requirements by node's labels.
     pub match_expressions: Option<std::vec::Vec<crate::api::core::v1::NodeSelectorRequirement>>,

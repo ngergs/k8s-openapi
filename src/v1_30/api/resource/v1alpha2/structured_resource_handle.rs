@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha2.StructuredResourceHandle
 
 /// StructuredResourceHandle is the in-tree representation of the allocation result.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct StructuredResourceHandle {
     /// NodeName is the name of the node providing the necessary resources if the resources are local to a node.
     pub node_name: Option<std::string::String>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.NodeCondition
 
 /// NodeCondition contains condition information for a node.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct NodeCondition {
     /// Last time we got an update on a given condition.
     pub last_heartbeat_time: Option<crate::apimachinery::pkg::apis::meta::v1::Time>,

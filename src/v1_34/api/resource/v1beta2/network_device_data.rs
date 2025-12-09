@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1beta2.NetworkDeviceData
 
 /// NetworkDeviceData provides network-related details for the allocated device. This information may be filled by drivers or other components to configure or identify the device within a network context.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct NetworkDeviceData {
     /// HardwareAddress represents the hardware address (e.g. MAC Address) of the device's network interface.
     ///

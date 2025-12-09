@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.authorization.v1.SubjectAccessReview
 
 /// SubjectAccessReview checks whether or not a user or group can perform an action.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct SubjectAccessReview {
     /// Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
     pub metadata: crate::apimachinery::pkg::apis::meta::v1::ObjectMeta,

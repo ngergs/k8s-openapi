@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.Probe
 
 /// Probe describes a health check to be performed against a container to determine whether it is alive or ready to receive traffic.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct Probe {
     /// Exec specifies a command to execute in the container.
     pub exec: Option<crate::api::core::v1::ExecAction>,

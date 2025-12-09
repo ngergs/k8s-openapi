@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.networking.v1.IngressBackend
 
 /// IngressBackend describes all endpoints for a given service and port.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct IngressBackend {
     /// resource is an ObjectRef to another Kubernetes resource in the namespace of the Ingress object. If resource is specified, a service.Name and service.Port must not be specified. This is a mutually exclusive setting with "Service".
     pub resource: Option<crate::api::core::v1::TypedLocalObjectReference>,

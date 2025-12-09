@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha2.PodSchedulingContextSpec
 
 /// PodSchedulingContextSpec describes where resources for the Pod are needed.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodSchedulingContextSpec {
     /// PotentialNodes lists nodes where the Pod might be able to run.
     ///

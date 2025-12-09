@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.NodeSpec
 
 /// NodeSpec describes the attributes that a node is created with.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct NodeSpec {
     /// Deprecated: Previously used to specify the source of the node's configuration for the DynamicKubeletConfig feature. This feature is removed.
     pub config_source: Option<crate::api::core::v1::NodeConfigSource>,

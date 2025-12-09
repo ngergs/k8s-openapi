@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.autoscaling.v1.ScaleSpec
 
 /// ScaleSpec describes the attributes of a scale subresource.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ScaleSpec {
     /// replicas is the desired number of instances for the scaled object.
     pub replicas: Option<i32>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.autoscaling.v2.PodsMetricStatus
 
 /// PodsMetricStatus indicates the current value of a metric describing each pod in the current scale target (for example, transactions-processed-per-second).
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodsMetricStatus {
     /// current contains the current value for the given metric
     pub current: crate::api::autoscaling::v2::MetricValueStatus,

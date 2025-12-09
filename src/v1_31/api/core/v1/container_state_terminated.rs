@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ContainerStateTerminated
 
 /// ContainerStateTerminated is a terminated state of a container.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ContainerStateTerminated {
     /// Container's ID in the format '\<type\>://\<container_id\>'
     pub container_id: Option<std::string::String>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.flowcontrol.v1beta3.PriorityLevelConfigurationReference
 
 /// PriorityLevelConfigurationReference contains information that points to the "request-priority" being used.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PriorityLevelConfigurationReference {
     /// `name` is the name of the priority level configuration being referenced Required.
     pub name: std::string::String,

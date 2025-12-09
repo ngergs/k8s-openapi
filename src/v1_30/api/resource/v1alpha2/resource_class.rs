@@ -3,7 +3,7 @@
 /// ResourceClass is used by administrators to influence how resources are allocated.
 ///
 /// This is an alpha type and requires enabling the DynamicResourceAllocation feature gate.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourceClass {
     /// DriverName defines the name of the dynamic resource driver that is used for allocation of a ResourceClaim that uses this class.
     ///

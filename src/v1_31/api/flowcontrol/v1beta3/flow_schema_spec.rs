@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.flowcontrol.v1beta3.FlowSchemaSpec
 
 /// FlowSchemaSpec describes how the FlowSchema's specification looks like.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct FlowSchemaSpec {
     /// `distinguisherMethod` defines how to compute the flow distinguisher for requests that match this schema. `nil` specifies that the distinguisher is disabled and thus will always be the empty string.
     pub distinguisher_method: Option<crate::api::flowcontrol::v1beta3::FlowDistinguisherMethod>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.autoscaling.v2.HorizontalPodAutoscalerSpec
 
 /// HorizontalPodAutoscalerSpec describes the desired functionality of the HorizontalPodAutoscaler.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct HorizontalPodAutoscalerSpec {
     /// behavior configures the scaling behavior of the target in both Up and Down directions (scaleUp and scaleDown fields respectively). If not set, the default HPAScalingRules for scale up and scale down are used.
     pub behavior: Option<crate::api::autoscaling::v2::HorizontalPodAutoscalerBehavior>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1beta2.ExactDeviceRequest
 
 /// ExactDeviceRequest is a request for one or more identical devices.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ExactDeviceRequest {
     /// AdminAccess indicates that this is a claim for administrative access to the device(s). Claims with AdminAccess are expected to be used for monitoring or other management services for a device.  They ignore all ordinary claims to the device with respect to access modes and any resource allocations.
     ///

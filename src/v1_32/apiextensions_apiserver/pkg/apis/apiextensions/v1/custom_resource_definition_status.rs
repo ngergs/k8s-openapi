@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1.CustomResourceDefinitionStatus
 
 /// CustomResourceDefinitionStatus indicates the state of the CustomResourceDefinition
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct CustomResourceDefinitionStatus {
     /// acceptedNames are the names that are actually being used to serve discovery. They may be different than the names in spec.
     pub accepted_names: Option<crate::apiextensions_apiserver::pkg::apis::apiextensions::v1::CustomResourceDefinitionNames>,

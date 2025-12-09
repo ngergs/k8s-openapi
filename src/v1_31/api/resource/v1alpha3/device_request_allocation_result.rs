@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha3.DeviceRequestAllocationResult
 
 /// DeviceRequestAllocationResult contains the allocation result for one request.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct DeviceRequestAllocationResult {
     /// Device references one device instance via its name in the driver's resource pool. It must be a DNS label.
     pub device: std::string::String,

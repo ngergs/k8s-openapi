@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1.DeviceClaimConfiguration
 
 /// DeviceClaimConfiguration is used for configuration parameters in DeviceClaim.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct DeviceClaimConfiguration {
     /// Opaque provides driver-specific configuration parameters.
     pub opaque: Option<crate::api::resource::v1::OpaqueDeviceConfiguration>,

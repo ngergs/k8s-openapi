@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.storage.v1.VolumeAttachmentSpec
 
 /// VolumeAttachmentSpec is the specification of a VolumeAttachment request.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct VolumeAttachmentSpec {
     /// attacher indicates the name of the volume driver that MUST handle this request. This is the name returned by GetPluginName().
     pub attacher: std::string::String,
