@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1.DeviceRequest
 
 /// DeviceRequest is a request for devices required for a claim. This is typically a request for a single resource like a device, but can also ask for several identical devices. With FirstAvailable it is also possible to provide a prioritized list of requests.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct DeviceRequest {
     /// Exactly specifies the details for a single request that must be met exactly for the request to be satisfied.
     ///

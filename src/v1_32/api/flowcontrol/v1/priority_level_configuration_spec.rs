@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.flowcontrol.v1.PriorityLevelConfigurationSpec
 
 /// PriorityLevelConfigurationSpec specifies the configuration of a priority level.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PriorityLevelConfigurationSpec {
     /// `exempt` specifies how requests are handled for an exempt priority level. This field MUST be empty if `type` is `"Limited"`. This field MAY be non-empty if `type` is `"Exempt"`. If empty and `type` is `"Exempt"` then the default values for `ExemptPriorityLevelConfiguration` apply.
     pub exempt: Option<crate::api::flowcontrol::v1::ExemptPriorityLevelConfiguration>,

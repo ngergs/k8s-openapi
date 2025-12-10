@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.flowcontrol.v1beta3.PolicyRulesWithSubjects
 
 /// PolicyRulesWithSubjects prescribes a test that applies to a request to an apiserver. The test considers the subject making the request, the verb being requested, and the resource to be acted upon. This PolicyRulesWithSubjects matches a request if and only if both (a) at least one member of subjects matches the request and (b) at least one member of resourceRules or nonResourceRules matches the request.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PolicyRulesWithSubjects {
     /// `nonResourceRules` is a list of NonResourcePolicyRules that identify matching requests according to their verb and the target non-resource URL.
     pub non_resource_rules: Option<std::vec::Vec<crate::api::flowcontrol::v1beta3::NonResourcePolicyRule>>,

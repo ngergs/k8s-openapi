@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha2.NamedResourcesAttribute
 
 /// NamedResourcesAttribute is a combination of an attribute name and its value.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct NamedResourcesAttribute {
     /// BoolValue is a true/false value.
     pub bool: Option<bool>,

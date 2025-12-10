@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.GlusterfsPersistentVolumeSource
 
 /// Represents a Glusterfs mount that lasts the lifetime of a pod. Glusterfs volumes do not support ownership management or SELinux relabeling.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct GlusterfsPersistentVolumeSource {
     /// endpoints is the endpoint name that details Glusterfs topology. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
     pub endpoints: std::string::String,

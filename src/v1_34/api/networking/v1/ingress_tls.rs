@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.networking.v1.IngressTLS
 
 /// IngressTLS describes the transport layer security associated with an ingress.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct IngressTLS {
     /// hosts is a list of hosts included in the TLS certificate. The values in this list must match the name/s used in the tlsSecret. Defaults to the wildcard host setting for the loadbalancer controller fulfilling this Ingress, if left unspecified.
     pub hosts: Option<std::vec::Vec<std::string::String>>,

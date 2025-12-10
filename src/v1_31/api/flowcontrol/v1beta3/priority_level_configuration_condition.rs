@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.flowcontrol.v1beta3.PriorityLevelConfigurationCondition
 
 /// PriorityLevelConfigurationCondition defines the condition of priority level.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PriorityLevelConfigurationCondition {
     /// `lastTransitionTime` is the last time the condition transitioned from one status to another.
     pub last_transition_time: Option<crate::apimachinery::pkg::apis::meta::v1::Time>,

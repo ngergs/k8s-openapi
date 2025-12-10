@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ClusterTrustBundleProjection
 
 /// ClusterTrustBundleProjection describes how to select a set of ClusterTrustBundle objects and project their contents into the pod filesystem.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ClusterTrustBundleProjection {
     /// Select all ClusterTrustBundles that match this label selector.  Only has effect if signerName is set.  Mutually-exclusive with name.  If unset, interpreted as "match nothing".  If set but empty, interpreted as "match everything".
     pub label_selector: Option<crate::apimachinery::pkg::apis::meta::v1::LabelSelector>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha2.NamedResourcesInstance
 
 /// NamedResourcesInstance represents one individual hardware instance that can be selected based on its attributes.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct NamedResourcesInstance {
     /// Attributes defines the attributes of this resource instance. The name of each attribute must be unique.
     pub attributes: Option<std::vec::Vec<crate::api::resource::v1alpha2::NamedResourcesAttribute>>,

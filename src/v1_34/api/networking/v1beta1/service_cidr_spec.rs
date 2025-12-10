@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.networking.v1beta1.ServiceCIDRSpec
 
 /// ServiceCIDRSpec define the CIDRs the user wants to use for allocating ClusterIPs for Services.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ServiceCIDRSpec {
     /// CIDRs defines the IP blocks in CIDR notation (e.g. "192.168.0.0/24" or "2001:db8::/64") from which to assign service cluster IPs. Max of two CIDRs is allowed, one of each IP family. This field is immutable.
     pub cidrs: Option<std::vec::Vec<std::string::String>>,

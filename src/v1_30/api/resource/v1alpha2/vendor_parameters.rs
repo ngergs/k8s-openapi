@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha2.VendorParameters
 
 /// VendorParameters are opaque parameters for one particular driver.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct VendorParameters {
     /// DriverName is the name used by the DRA driver kubelet plugin.
     pub driver_name: Option<std::string::String>,

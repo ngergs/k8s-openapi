@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha3.AllocationResult
 
 /// AllocationResult contains attributes of an allocated resource.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct AllocationResult {
     /// Controller is the name of the DRA driver which handled the allocation. That driver is also responsible for deallocating the claim. It is empty when the claim can be deallocated without involving a driver.
     ///

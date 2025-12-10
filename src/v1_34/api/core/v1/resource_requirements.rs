@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ResourceRequirements
 
 /// ResourceRequirements describes the compute resource requirements.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourceRequirements {
     /// Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container.
     ///

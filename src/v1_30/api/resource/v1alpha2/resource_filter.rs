@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha2.ResourceFilter
 
 /// ResourceFilter is a filter for resources from one particular driver.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourceFilter {
     /// DriverName is the name used by the DRA driver kubelet plugin.
     pub driver_name: Option<std::string::String>,

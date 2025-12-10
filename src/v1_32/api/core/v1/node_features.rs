@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.NodeFeatures
 
 /// NodeFeatures describes the set of features implemented by the CRI implementation. The features contained in the NodeFeatures should depend only on the cri implementation independent of runtime handlers.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct NodeFeatures {
     /// SupplementalGroupsPolicy is set to true if the runtime supports SupplementalGroupsPolicy and ContainerUser.
     pub supplemental_groups_policy: Option<bool>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.LocalVolumeSource
 
 /// Local represents directly-attached storage with node affinity
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct LocalVolumeSource {
     /// fsType is the filesystem type to mount. It applies only when the Path is a block device. Must be a filesystem type supported by the host operating system. Ex. "ext4", "xfs", "ntfs". The default value is to auto-select a filesystem if unspecified.
     pub fs_type: Option<std::string::String>,

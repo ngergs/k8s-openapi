@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.flowcontrol.v1beta3.LimitResponse
 
 /// LimitResponse defines how to handle requests that can not be executed right now.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct LimitResponse {
     /// `queuing` holds the configuration parameters for queuing. This field may be non-empty only if `type` is `"Queue"`.
     pub queuing: Option<crate::api::flowcontrol::v1beta3::QueuingConfiguration>,

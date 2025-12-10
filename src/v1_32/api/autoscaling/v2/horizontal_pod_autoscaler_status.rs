@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.autoscaling.v2.HorizontalPodAutoscalerStatus
 
 /// HorizontalPodAutoscalerStatus describes the current status of a horizontal pod autoscaler.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct HorizontalPodAutoscalerStatus {
     /// conditions is the set of conditions required for this autoscaler to scale its target, and indicates whether or not those conditions are met.
     pub conditions: Option<std::vec::Vec<crate::api::autoscaling::v2::HorizontalPodAutoscalerCondition>>,

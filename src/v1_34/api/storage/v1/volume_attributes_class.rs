@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.storage.v1.VolumeAttributesClass
 
 /// VolumeAttributesClass represents a specification of mutable volume attributes defined by the CSI driver. The class can be specified during dynamic provisioning of PersistentVolumeClaims, and changed in the PersistentVolumeClaim spec after provisioning.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct VolumeAttributesClass {
     /// Name of the CSI driver This field is immutable.
     pub driver_name: std::string::String,

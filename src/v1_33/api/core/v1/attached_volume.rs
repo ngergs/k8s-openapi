@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.AttachedVolume
 
 /// AttachedVolume describes a volume attached to a node
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct AttachedVolume {
     /// DevicePath represents the device path where the volume should be available
     pub device_path: std::string::String,

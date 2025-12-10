@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.apiserverinternal.v1alpha1.StorageVersion
 
 /// Storage version of a specific resource.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct StorageVersion {
     /// The name is \<group\>.\<resource\>.
     pub metadata: crate::apimachinery::pkg::apis::meta::v1::ObjectMeta,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha2.DriverRequests
 
 /// DriverRequests describes all resources that are needed from one particular driver.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct DriverRequests {
     /// DriverName is the name used by the DRA driver kubelet plugin.
     pub driver_name: Option<std::string::String>,

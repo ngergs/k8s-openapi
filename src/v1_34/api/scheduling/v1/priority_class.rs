@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.scheduling.v1.PriorityClass
 
 /// PriorityClass defines mapping from a priority class name to the priority integer value. The value can be any valid integer.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PriorityClass {
     /// description is an arbitrary string that usually provides guidelines on when this priority class should be used.
     pub description: Option<std::string::String>,

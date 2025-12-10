@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.GRPCAction
 
 /// GRPCAction specifies an action involving a GRPC service.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct GRPCAction {
     /// Port number of the gRPC service. Number must be in the range 1 to 65535.
     pub port: i32,

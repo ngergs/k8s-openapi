@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.TypedObjectReference
 
 /// TypedObjectReference contains enough information to let you locate the typed referenced object
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct TypedObjectReference {
     /// APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
     pub api_group: Option<std::string::String>,

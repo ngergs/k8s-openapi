@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha2.NamedResourcesStringSlice
 
 /// NamedResourcesStringSlice contains a slice of strings.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct NamedResourcesStringSlice {
     /// Strings is the slice of strings.
     pub strings: std::vec::Vec<std::string::String>,

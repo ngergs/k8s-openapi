@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.certificates.v1beta1.ClusterTrustBundleSpec
 
 /// ClusterTrustBundleSpec contains the signer and trust anchors.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ClusterTrustBundleSpec {
     /// signerName indicates the associated signer, if any.
     ///

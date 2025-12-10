@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.certificates.v1alpha1.PodCertificateRequestSpec
 
 /// PodCertificateRequestSpec describes the certificate request.  All fields are immutable after creation.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodCertificateRequestSpec {
     /// maxExpirationSeconds is the maximum lifetime permitted for the certificate.
     ///

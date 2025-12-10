@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.PodResourceClaim
 
 /// PodResourceClaim references exactly one ResourceClaim through a ClaimSource. It adds a name to it that uniquely identifies the ResourceClaim inside the Pod. Containers that need access to the ResourceClaim reference it with this name.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodResourceClaim {
     /// Name uniquely identifies this resource claim inside the pod. This must be a DNS_LABEL.
     pub name: std::string::String,

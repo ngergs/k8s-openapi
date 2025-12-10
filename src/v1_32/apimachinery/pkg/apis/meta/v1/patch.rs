@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.apimachinery.pkg.apis.meta.v1.Patch
 
 /// Patch is provided to give a concrete name and type to the Kubernetes PATCH request body.
-#[derive(Clone, Debug, PartialEq)]
+#[derive(Clone, Debug, PartialEq, fake::Dummy)]
 pub enum Patch {
     Json(std::vec::Vec<crate::serde_json::Value>),
     Merge(crate::serde_json::Value),

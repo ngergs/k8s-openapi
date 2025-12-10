@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.flowcontrol.v1beta3.FlowDistinguisherMethod
 
 /// FlowDistinguisherMethod specifies the method of a flow distinguisher.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct FlowDistinguisherMethod {
     /// `type` is the type of flow distinguisher method The supported types are "ByUser" and "ByNamespace". Required.
     pub type_: std::string::String,

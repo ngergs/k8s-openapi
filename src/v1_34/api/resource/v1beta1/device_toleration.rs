@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1beta1.DeviceToleration
 
 /// The ResourceClaim this DeviceToleration is attached to tolerates any taint that matches the triple \<key,value,effect\> using the matching operator \<operator\>.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct DeviceToleration {
     /// Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule and NoExecute.
     pub effect: Option<std::string::String>,

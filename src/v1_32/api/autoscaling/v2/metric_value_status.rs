@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.autoscaling.v2.MetricValueStatus
 
 /// MetricValueStatus holds the current value for a metric
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct MetricValueStatus {
     /// currentAverageUtilization is the current value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods.
     pub average_utilization: Option<i32>,

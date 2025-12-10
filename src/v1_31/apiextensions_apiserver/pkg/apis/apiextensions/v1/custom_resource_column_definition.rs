@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1.CustomResourceColumnDefinition
 
 /// CustomResourceColumnDefinition specifies a column for server side printing.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct CustomResourceColumnDefinition {
     /// description is a human readable description of this column.
     pub description: Option<std::string::String>,

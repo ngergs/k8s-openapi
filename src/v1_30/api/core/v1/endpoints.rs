@@ -13,7 +13,7 @@
 ///          Ports: \[{"name": "a", "port": 93}, {"name": "b", "port": 76}\]
 ///        },
 ///     \]
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct Endpoints {
     /// Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
     pub metadata: crate::apimachinery::pkg::apis::meta::v1::ObjectMeta,

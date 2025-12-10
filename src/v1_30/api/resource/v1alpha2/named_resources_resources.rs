@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha2.NamedResourcesResources
 
 /// NamedResourcesResources is used in ResourceModel.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct NamedResourcesResources {
     /// The list of all individual resources instances currently available.
     pub instances: std::vec::Vec<crate::api::resource::v1alpha2::NamedResourcesInstance>,

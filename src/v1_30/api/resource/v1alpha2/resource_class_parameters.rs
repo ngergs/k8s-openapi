@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha2.ResourceClassParameters
 
 /// ResourceClassParameters defines resource requests for a ResourceClass in an in-tree format understood by Kubernetes.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourceClassParameters {
     /// Filters describes additional contraints that must be met when using the class.
     pub filters: Option<std::vec::Vec<crate::api::resource::v1alpha2::ResourceFilter>>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.storagemigration.v1alpha1.GroupVersionResource
 
 /// The names of the group, the version, and the resource.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct GroupVersionResource {
     /// The name of the group.
     pub group: Option<std::string::String>,

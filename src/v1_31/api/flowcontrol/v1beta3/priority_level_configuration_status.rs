@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.flowcontrol.v1beta3.PriorityLevelConfigurationStatus
 
 /// PriorityLevelConfigurationStatus represents the current state of a "request-priority".
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PriorityLevelConfigurationStatus {
     /// `conditions` is the current state of "request-priority".
     pub conditions: Option<std::vec::Vec<crate::api::flowcontrol::v1beta3::PriorityLevelConfigurationCondition>>,

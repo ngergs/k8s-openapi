@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.admissionregistration.v1alpha1.TypeChecking
 
 /// TypeChecking contains results of type checking the expressions in the ValidatingAdmissionPolicy
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct TypeChecking {
     /// The type checking warnings for each expression.
     pub expression_warnings: Option<std::vec::Vec<crate::api::admissionregistration::v1alpha1::ExpressionWarning>>,

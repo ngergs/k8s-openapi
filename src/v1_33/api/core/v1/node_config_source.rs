@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.NodeConfigSource
 
 /// NodeConfigSource specifies a source of node configuration. Exactly one subfield (excluding metadata) must be non-nil. This API is deprecated since 1.22
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct NodeConfigSource {
     /// ConfigMap is a reference to a Node's ConfigMap
     pub config_map: Option<crate::api::core::v1::ConfigMapNodeConfigSource>,

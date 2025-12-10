@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.networking.v1alpha1.IPAddressSpec
 
 /// IPAddressSpec describe the attributes in an IP Address.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct IPAddressSpec {
     /// ParentRef references the resource that an IPAddress is attached to. An IPAddress must reference a parent object.
     pub parent_ref: crate::api::networking::v1alpha1::ParentReference,

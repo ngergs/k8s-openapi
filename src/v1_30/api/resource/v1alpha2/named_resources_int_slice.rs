@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha2.NamedResourcesIntSlice
 
 /// NamedResourcesIntSlice contains a slice of 64-bit integers.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct NamedResourcesIntSlice {
     /// Ints is the slice of 64-bit integers.
     pub ints: std::vec::Vec<i64>,

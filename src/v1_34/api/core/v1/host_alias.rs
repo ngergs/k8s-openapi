@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.HostAlias
 
 /// HostAlias holds the mapping between IP and hostnames that will be injected as an entry in the pod's hosts file.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct HostAlias {
     /// Hostnames for the above IP address.
     pub hostnames: Option<std::vec::Vec<std::string::String>>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.autoscaling.v2.HPAScalingRules
 
 /// HPAScalingRules configures the scaling behavior for one direction. These Rules are applied after calculating DesiredReplicas from metrics for the HPA. They can limit the scaling velocity by specifying scaling policies. They can prevent flapping by specifying the stabilization window, so that the number of replicas is not set instantly, instead, the safest value from the stabilization window is chosen.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct HPAScalingRules {
     /// policies is a list of potential scaling polices which can be used during scaling. At least one policy must be specified, otherwise the HPAScalingRules will be discarded as invalid
     pub policies: Option<std::vec::Vec<crate::api::autoscaling::v2::HPAScalingPolicy>>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.PodExtendedResourceClaimStatus
 
 /// PodExtendedResourceClaimStatus is stored in the PodStatus for the extended resource requests backed by DRA. It stores the generated name for the corresponding special ResourceClaim created by the scheduler.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodExtendedResourceClaimStatus {
     /// RequestMappings identifies the mapping of \<container, extended resource backed by DRA\> to  device request in the generated ResourceClaim.
     pub request_mappings: std::vec::Vec<crate::api::core::v1::ContainerExtendedResourceRequest>,

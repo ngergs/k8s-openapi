@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ScopeSelector
 
 /// A scope selector represents the AND of the selectors represented by the scoped-resource selector requirements.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ScopeSelector {
     /// A list of scope selector requirements by scope of the resources.
     pub match_expressions: Option<std::vec::Vec<crate::api::core::v1::ScopedResourceSelectorRequirement>>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha2.ResourceHandle
 
 /// ResourceHandle holds opaque resource data for processing by a specific kubelet plugin.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourceHandle {
     /// Data contains the opaque data associated with this ResourceHandle. It is set by the controller component of the resource driver whose name matches the DriverName set in the ResourceClaimStatus this ResourceHandle is embedded in. It is set at allocation time and is intended for processing by the kubelet plugin whose name matches the DriverName set in this ResourceHandle.
     ///

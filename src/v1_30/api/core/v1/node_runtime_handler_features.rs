@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.NodeRuntimeHandlerFeatures
 
 /// NodeRuntimeHandlerFeatures is a set of runtime features.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct NodeRuntimeHandlerFeatures {
     /// RecursiveReadOnlyMounts is set to true if the runtime handler supports RecursiveReadOnlyMounts.
     pub recursive_read_only_mounts: Option<bool>,

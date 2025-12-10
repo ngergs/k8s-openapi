@@ -3,7 +3,7 @@
 /// VolumeAttachment captures the intent to attach or detach the specified volume to/from the specified node.
 ///
 /// VolumeAttachment objects are non-namespaced.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct VolumeAttachment {
     /// Standard object metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
     pub metadata: crate::apimachinery::pkg::apis::meta::v1::ObjectMeta,

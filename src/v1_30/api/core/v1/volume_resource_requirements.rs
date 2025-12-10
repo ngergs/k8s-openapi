@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.VolumeResourceRequirements
 
 /// VolumeResourceRequirements describes the storage resource requirements for a volume.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct VolumeResourceRequirements {
     /// Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
     pub limits: Option<std::collections::BTreeMap<std::string::String, crate::apimachinery::pkg::api::resource::Quantity>>,

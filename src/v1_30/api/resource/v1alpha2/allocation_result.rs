@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha2.AllocationResult
 
 /// AllocationResult contains attributes of an allocated resource.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct AllocationResult {
     /// This field will get set by the resource driver after it has allocated the resource to inform the scheduler where it can schedule Pods using the ResourceClaim.
     ///

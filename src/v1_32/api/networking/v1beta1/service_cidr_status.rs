@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.networking.v1beta1.ServiceCIDRStatus
 
 /// ServiceCIDRStatus describes the current state of the ServiceCIDR.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ServiceCIDRStatus {
     /// conditions holds an array of metav1.Condition that describe the state of the ServiceCIDR. Current service state
     pub conditions: Option<std::vec::Vec<crate::apimachinery::pkg::apis::meta::v1::Condition>>,

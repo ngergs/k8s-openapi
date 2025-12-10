@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha2.ResourceClaimStatus
 
 /// ResourceClaimStatus tracks whether the resource has been allocated and what the resulting attributes are.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourceClaimStatus {
     /// Allocation is set by the resource driver once a resource or set of resources has been allocated successfully. If this is not specified, the resources have not been allocated yet.
     pub allocation: Option<crate::api::resource::v1alpha2::AllocationResult>,

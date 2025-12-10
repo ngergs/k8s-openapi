@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.autoscaling.v2.ObjectMetricSource
 
 /// ObjectMetricSource indicates how to scale on a metric describing a kubernetes object (for example, hits-per-second on an Ingress object).
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ObjectMetricSource {
     /// describedObject specifies the descriptions of a object,such as kind,name apiVersion
     pub described_object: crate::api::autoscaling::v2::CrossVersionObjectReference,
