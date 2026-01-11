@@ -234,7 +234,9 @@ extern crate alloc as std;
 #[cfg(feature = "std")]
 extern crate std;
 
+use fake::{Dummy, Fake, Faker, Rng};
 pub use jiff;
+use jiff::Timestamp;
 #[cfg(feature = "schemars")]
 pub use schemars;
 pub use serde;
@@ -275,3 +277,13 @@ pub use _resource::{
 #[cfg(k8s_openapi_enabled_version="1.35")] pub use self::v1_35::*;
 
 include!(concat!(env!("OUT_DIR"), "/conditional_compilation_macros.rs"));
+
+
+pub(crate) struct TimestampFaker{}
+
+impl Dummy<TimestampFaker> for Timestamp {
+    fn dummy_with_rng<R: Rng + ?Sized>(_: &TimestampFaker, rng: &mut R) -> Self {
+        // let's stay with positive year numbers for the purpose of testing k8s ;)
+        Timestamp::from_second(rng.random_range( 0..=253402207200)).unwrap()
+    }
+}
