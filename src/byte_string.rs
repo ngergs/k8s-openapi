@@ -1,7 +1,9 @@
+use fake::Dummy;
+
 /// A wrapper around a list of bytes.
 ///
 /// Used in Kubernetes types whose JSON representation uses a base64-encoded string for a list of bytes.
-#[derive(Clone, Debug, Default, Eq, Ord, PartialEq, PartialOrd)]
+#[derive(Clone, Debug, Default, Eq, Ord, PartialEq, PartialOrd, Dummy)]
 pub struct ByteString(pub std::vec::Vec<u8>);
 
 impl<'de> serde::Deserialize<'de> for ByteString {
