@@ -15,9 +15,8 @@
     clippy::single_match_else,
     clippy::too_many_lines,
     clippy::type_complexity,
-    rustdoc::bare_urls,
+    rustdoc::bare_urls
 )]
-
 // `schemars::json_schema!` expansion hits recursion limit.
 #![cfg_attr(feature = "schemars", recursion_limit = "256")]
 
@@ -27,11 +26,11 @@
 //!
 //! These docs have been generated with the `
 
-#![cfg_attr(k8s_openapi_enabled_version="1.31", doc = "v1_31")]
-#![cfg_attr(k8s_openapi_enabled_version="1.32", doc = "v1_32")]
-#![cfg_attr(k8s_openapi_enabled_version="1.33", doc = "v1_33")]
-#![cfg_attr(k8s_openapi_enabled_version="1.34", doc = "v1_34")]
-#![cfg_attr(k8s_openapi_enabled_version="1.35", doc = "v1_35")]
+#![cfg_attr(k8s_openapi_enabled_version = "1.31", doc = "v1_31")]
+#![cfg_attr(k8s_openapi_enabled_version = "1.32", doc = "v1_32")]
+#![cfg_attr(k8s_openapi_enabled_version = "1.33", doc = "v1_33")]
+#![cfg_attr(k8s_openapi_enabled_version = "1.34", doc = "v1_34")]
+#![cfg_attr(k8s_openapi_enabled_version = "1.35", doc = "v1_35")]
 
 //! ` feature enabled. To see docs for one of the other supported versions, please generate the docs locally with `cargo doc --features 'v1_<>'`
 //!
@@ -234,12 +233,13 @@ extern crate alloc as std;
 #[cfg(feature = "std")]
 extern crate std;
 
+use fake::{Dummy, RngExt, rand::Rng};
 pub use jiff;
+use jiff::Timestamp;
 #[cfg(feature = "schemars")]
 pub use schemars;
 pub use serde;
 pub use serde_json;
-
 
 #[path = "byte_string.rs"]
 mod _byte_string;
@@ -252,26 +252,45 @@ pub use self::_deep_merge::{DeepMerge, strategies as merge_strategies};
 #[path = "resource.rs"]
 mod _resource;
 pub use _resource::{
-    Resource,
-    ResourceScope, ClusterResourceScope, NamespaceResourceScope, SubResourceScope,
-    ListableResource,
-    Metadata,
-    api_version, group, kind, version,
+    ClusterResourceScope, ListableResource, Metadata, NamespaceResourceScope, Resource,
+    ResourceScope, SubResourceScope, api_version, group, kind, version,
 };
 
-#[cfg(k8s_openapi_enabled_version="1.31")] mod v1_31;
-#[cfg(k8s_openapi_enabled_version="1.31")] pub use self::v1_31::*;
+#[cfg(k8s_openapi_enabled_version = "1.31")]
+mod v1_31;
+#[cfg(k8s_openapi_enabled_version = "1.31")]
+pub use self::v1_31::*;
 
-#[cfg(k8s_openapi_enabled_version="1.32")] mod v1_32;
-#[cfg(k8s_openapi_enabled_version="1.32")] pub use self::v1_32::*;
+#[cfg(k8s_openapi_enabled_version = "1.32")]
+mod v1_32;
+#[cfg(k8s_openapi_enabled_version = "1.32")]
+pub use self::v1_32::*;
 
-#[cfg(k8s_openapi_enabled_version="1.33")] mod v1_33;
-#[cfg(k8s_openapi_enabled_version="1.33")] pub use self::v1_33::*;
+#[cfg(k8s_openapi_enabled_version = "1.33")]
+mod v1_33;
+#[cfg(k8s_openapi_enabled_version = "1.33")]
+pub use self::v1_33::*;
 
-#[cfg(k8s_openapi_enabled_version="1.34")] mod v1_34;
-#[cfg(k8s_openapi_enabled_version="1.34")] pub use self::v1_34::*;
+#[cfg(k8s_openapi_enabled_version = "1.34")]
+mod v1_34;
+#[cfg(k8s_openapi_enabled_version = "1.34")]
+pub use self::v1_34::*;
 
-#[cfg(k8s_openapi_enabled_version="1.35")] mod v1_35;
-#[cfg(k8s_openapi_enabled_version="1.35")] pub use self::v1_35::*;
+#[cfg(k8s_openapi_enabled_version = "1.35")]
+mod v1_35;
+#[cfg(k8s_openapi_enabled_version = "1.35")]
+pub use self::v1_35::*;
 
-include!(concat!(env!("OUT_DIR"), "/conditional_compilation_macros.rs"));
+include!(concat!(
+    env!("OUT_DIR"),
+    "/conditional_compilation_macros.rs"
+));
+
+pub(crate) struct TimestampFaker {}
+
+impl Dummy<TimestampFaker> for Timestamp {
+    fn dummy_with_rng<R: Rng + ?Sized>(_: &TimestampFaker, rng: &mut R) -> Self {
+        // let's stay with positive year numbers for the purpose of testing k8s ;)
+        Timestamp::from_second(rng.random_range(0..=253_402_207_200)).unwrap()
+    }
+}
