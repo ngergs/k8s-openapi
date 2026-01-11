@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.AppArmorProfile
 
 /// AppArmorProfile defines a pod or container's AppArmor settings.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct AppArmorProfile {
     /// localhostProfile indicates a profile loaded on the node that should be used. The profile must be preconfigured on the node to work. Must match the loaded name of the profile. Must be set if and only if type is "Localhost".
     pub localhost_profile: Option<std::string::String>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.PodSecurityContext
 
 /// PodSecurityContext holds pod-level security attributes and common container settings. Some fields are also present in container.securityContext.  Field values of container.securityContext take precedence over field values of PodSecurityContext.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodSecurityContext {
     /// appArmorProfile is the AppArmor options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
     pub app_armor_profile: Option<crate::api::core::v1::AppArmorProfile>,

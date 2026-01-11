@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.KeyToPath
 
 /// Maps a string key to a path within a volume.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct KeyToPath {
     /// key is the key to project.
     pub key: std::string::String,

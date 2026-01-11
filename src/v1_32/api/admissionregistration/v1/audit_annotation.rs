@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.admissionregistration.v1.AuditAnnotation
 
 /// AuditAnnotation describes how to produce an audit annotation for an API request.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct AuditAnnotation {
     /// key specifies the audit annotation key. The audit annotation keys of a ValidatingAdmissionPolicy must be unique. The key must be a qualified name (\[A-Za-z0-9\]\[-A-Za-z0-9_.\]*) no more than 63 bytes in length.
     ///

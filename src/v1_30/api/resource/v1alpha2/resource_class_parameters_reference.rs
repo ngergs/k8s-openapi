@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha2.ResourceClassParametersReference
 
 /// ResourceClassParametersReference contains enough information to let you locate the parameters for a ResourceClass.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourceClassParametersReference {
     /// APIGroup is the group for the resource being referenced. It is empty for the core API. This matches the group in the APIVersion that is used when creating the resources.
     pub api_group: Option<std::string::String>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.storage.v1.TokenRequest
 
 /// TokenRequest contains parameters of a service account token.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct TokenRequest {
     /// audience is the intended audience of the token in "TokenRequestSpec". It will default to the audiences of kube apiserver.
     pub audience: std::string::String,

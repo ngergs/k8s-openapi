@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ReplicationControllerStatus
 
 /// ReplicationControllerStatus represents the current status of a replication controller.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ReplicationControllerStatus {
     /// The number of available replicas (ready for at least minReadySeconds) for this replication controller.
     pub available_replicas: Option<i32>,

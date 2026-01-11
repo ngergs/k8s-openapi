@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.SecretReference
 
 /// SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct SecretReference {
     /// name is unique within a namespace to reference a secret resource.
     pub name: Option<std::string::String>,

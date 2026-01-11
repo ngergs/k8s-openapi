@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.batch.v1.UncountedTerminatedPods
 
 /// UncountedTerminatedPods holds UIDs of Pods that have terminated but haven't been accounted in Job status counters.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct UncountedTerminatedPods {
     /// failed holds UIDs of failed Pods.
     pub failed: Option<std::vec::Vec<std::string::String>>,

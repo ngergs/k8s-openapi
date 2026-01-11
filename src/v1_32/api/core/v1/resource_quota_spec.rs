@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ResourceQuotaSpec
 
 /// ResourceQuotaSpec defines the desired hard limits to enforce for Quota.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourceQuotaSpec {
     /// hard is the set of desired hard limits for each named resource. More info: https://kubernetes.io/docs/concepts/policy/resource-quotas/
     pub hard: Option<std::collections::BTreeMap<std::string::String, crate::apimachinery::pkg::api::resource::Quantity>>,

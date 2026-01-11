@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha2.ResourceClaimSpec
 
 /// ResourceClaimSpec defines how a resource is to be allocated.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourceClaimSpec {
     /// Allocation can start immediately or when a Pod wants to use the resource. "WaitForFirstConsumer" is the default.
     pub allocation_mode: Option<std::string::String>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.certificates.v1.CertificateSigningRequestStatus
 
 /// CertificateSigningRequestStatus contains conditions used to indicate approved/denied/failed status of the request, and the issued certificate.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct CertificateSigningRequestStatus {
     /// certificate is populated with an issued certificate by the signer after an Approved condition is present. This field is set via the /status subresource. Once populated, this field is immutable.
     ///

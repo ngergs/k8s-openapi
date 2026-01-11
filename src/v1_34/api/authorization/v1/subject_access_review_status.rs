@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.authorization.v1.SubjectAccessReviewStatus
 
 /// SubjectAccessReviewStatus
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct SubjectAccessReviewStatus {
     /// Allowed is required. True if the action would be allowed, false otherwise.
     pub allowed: bool,

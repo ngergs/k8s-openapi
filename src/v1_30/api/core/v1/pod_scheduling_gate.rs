@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.PodSchedulingGate
 
 /// PodSchedulingGate is associated to a Pod to guard its scheduling.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodSchedulingGate {
     /// Name of the scheduling gate. Each scheduling gate must have a unique name field.
     pub name: std::string::String,

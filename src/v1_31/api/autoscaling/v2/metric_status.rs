@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.autoscaling.v2.MetricStatus
 
 /// MetricStatus describes the last-read state of a single metric.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct MetricStatus {
     /// container resource refers to a resource metric (such as those specified in requests and limits) known to Kubernetes describing a single container in each pod in the current scale target (e.g. CPU or memory). Such metrics are built in to Kubernetes, and have special scaling options on top of those available to normal per-pod metrics using the "pods" source.
     pub container_resource: Option<crate::api::autoscaling::v2::ContainerResourceMetricStatus>,

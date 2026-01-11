@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha2.ResourceRequest
 
 /// ResourceRequest is a request for resources from one particular driver.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourceRequest {
     /// NamedResources describes a request for resources with the named resources model.
     pub named_resources: Option<crate::api::resource::v1alpha2::NamedResourcesRequest>,

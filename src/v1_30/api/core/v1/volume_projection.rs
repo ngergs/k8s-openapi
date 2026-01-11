@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.VolumeProjection
 
 /// Projection that may be projected along with other supported volume types
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct VolumeProjection {
     /// ClusterTrustBundle allows a pod to access the `.spec.trustBundle` field of ClusterTrustBundle objects in an auto-updating file.
     ///

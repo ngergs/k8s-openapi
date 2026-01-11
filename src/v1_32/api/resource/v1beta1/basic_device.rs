@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1beta1.BasicDevice
 
 /// BasicDevice defines one device instance.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct BasicDevice {
     /// Attributes defines the set of attributes for this device. The name of each attribute must be unique in that set.
     ///

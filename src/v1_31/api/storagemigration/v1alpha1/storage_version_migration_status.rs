@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.storagemigration.v1alpha1.StorageVersionMigrationStatus
 
 /// Status of the storage version migration.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct StorageVersionMigrationStatus {
     /// The latest available observations of the migration's current state.
     pub conditions: Option<std::vec::Vec<crate::api::storagemigration::v1alpha1::MigrationCondition>>,

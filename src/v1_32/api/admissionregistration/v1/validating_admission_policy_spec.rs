@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.admissionregistration.v1.ValidatingAdmissionPolicySpec
 
 /// ValidatingAdmissionPolicySpec is the specification of the desired behavior of the AdmissionPolicy.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ValidatingAdmissionPolicySpec {
     /// auditAnnotations contains CEL expressions which are used to produce audit annotations for the audit event of the API request. validations and auditAnnotations may not both be empty; a least one of validations or auditAnnotations is required.
     pub audit_annotations: Option<std::vec::Vec<crate::api::admissionregistration::v1::AuditAnnotation>>,

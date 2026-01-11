@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.networking.v1alpha1.ParentReference
 
 /// ParentReference describes a reference to a parent object.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ParentReference {
     /// Group is the group of the object being referenced.
     pub group: Option<std::string::String>,

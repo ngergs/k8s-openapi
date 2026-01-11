@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha2.NamedResourcesAllocationResult
 
 /// NamedResourcesAllocationResult is used in AllocationResultModel.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct NamedResourcesAllocationResult {
     /// Name is the name of the selected resource instance.
     pub name: std::string::String,

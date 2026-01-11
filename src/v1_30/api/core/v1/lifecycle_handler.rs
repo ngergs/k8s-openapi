@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.LifecycleHandler
 
 /// LifecycleHandler defines a specific action that should be taken in a lifecycle hook. One and only one of the fields, except TCPSocket must be specified.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct LifecycleHandler {
     /// Exec specifies the action to take.
     pub exec: Option<crate::api::core::v1::ExecAction>,
