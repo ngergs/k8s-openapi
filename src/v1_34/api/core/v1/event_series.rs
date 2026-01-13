@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.EventSeries
 
 /// EventSeries contain information on series of events, i.e. thing that was/is happening continuously for some time.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct EventSeries {
     /// Number of occurrences in this series up to the last heartbeat time
     pub count: Option<i32>,

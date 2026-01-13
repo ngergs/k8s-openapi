@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.networking.v1.IngressLoadBalancerStatus
 
 /// IngressLoadBalancerStatus represents the status of a load-balancer.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct IngressLoadBalancerStatus {
     /// ingress is a list containing ingress points for the load-balancer.
     pub ingress: Option<std::vec::Vec<crate::api::networking::v1::IngressLoadBalancerIngress>>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1.ExternalDocumentation
 
 /// ExternalDocumentation allows referencing an external resource for extended documentation.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ExternalDocumentation {
     pub description: Option<std::string::String>,
 

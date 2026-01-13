@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1.OpaqueDeviceConfiguration
 
 /// OpaqueDeviceConfiguration contains configuration parameters for a driver in a format defined by the driver vendor.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct OpaqueDeviceConfiguration {
     /// Driver is used to determine which kubelet plugin needs to be passed these configuration parameters.
     ///

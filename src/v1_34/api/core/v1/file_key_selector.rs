@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.FileKeySelector
 
 /// FileKeySelector selects a key of the env file.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct FileKeySelector {
     /// The key within the env file. An invalid key will prevent the pod from starting. The keys defined within a source may consist of any printable ASCII characters except '='. During Alpha stage of the EnvFiles feature gate, the key size is limited to 128 characters.
     pub key: std::string::String,

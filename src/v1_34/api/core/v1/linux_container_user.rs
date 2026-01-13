@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.LinuxContainerUser
 
 /// LinuxContainerUser represents user identity information in Linux containers
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct LinuxContainerUser {
     /// GID is the primary gid initially attached to the first process in the container
     pub gid: i64,

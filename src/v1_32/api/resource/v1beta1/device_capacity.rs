@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1beta1.DeviceCapacity
 
 /// DeviceCapacity describes a quantity associated with a device.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct DeviceCapacity {
     /// Value defines how much of a certain device capacity is available.
     pub value: crate::apimachinery::pkg::api::resource::Quantity,

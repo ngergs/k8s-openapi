@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.discovery.v1.ForNode
 
 /// ForNode provides information about which nodes should consume this endpoint.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ForNode {
     /// name represents the name of the node.
     pub name: std::string::String,

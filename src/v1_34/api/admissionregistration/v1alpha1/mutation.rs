@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.admissionregistration.v1alpha1.Mutation
 
 /// Mutation specifies the CEL expression which is used to apply the Mutation.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct Mutation {
     /// applyConfiguration defines the desired configuration values of an object. The configuration is applied to the admission object using \[structured merge diff\](https://github.com/kubernetes-sigs/structured-merge-diff). A CEL expression is used to create apply configuration.
     pub apply_configuration: Option<crate::api::admissionregistration::v1alpha1::ApplyConfiguration>,

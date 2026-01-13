@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.PodCertificateProjection
 
 /// PodCertificateProjection provides a private key and X.509 certificate in the pod filesystem.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodCertificateProjection {
     /// Write the certificate chain at this path in the projected volume.
     ///

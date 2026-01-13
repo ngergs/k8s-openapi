@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.Sysctl
 
 /// Sysctl defines a kernel parameter to be set
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct Sysctl {
     /// Name of a property to set
     pub name: std::string::String,

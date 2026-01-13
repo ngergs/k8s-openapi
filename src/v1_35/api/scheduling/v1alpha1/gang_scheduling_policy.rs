@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.scheduling.v1alpha1.GangSchedulingPolicy
 
 /// GangSchedulingPolicy defines the parameters for gang scheduling.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct GangSchedulingPolicy {
     /// MinCount is the minimum number of pods that must be schedulable or scheduled at the same time for the scheduler to admit the entire group. It must be a positive integer.
     pub min_count: i32,

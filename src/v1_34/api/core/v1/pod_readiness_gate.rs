@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.PodReadinessGate
 
 /// PodReadinessGate contains the reference to a pod condition
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodReadinessGate {
     /// ConditionType refers to a condition in the pod's condition list with matching type.
     pub condition_type: std::string::String,

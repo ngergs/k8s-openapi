@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.FlexVolumeSource
 
 /// FlexVolume represents a generic volume resource that is provisioned/attached using an exec based plugin.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct FlexVolumeSource {
     /// driver is the name of the driver to use for this volume.
     pub driver: std::string::String,

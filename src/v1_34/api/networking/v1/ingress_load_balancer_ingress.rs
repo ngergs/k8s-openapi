@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.networking.v1.IngressLoadBalancerIngress
 
 /// IngressLoadBalancerIngress represents the status of a load-balancer ingress point.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct IngressLoadBalancerIngress {
     /// hostname is set for load-balancer ingress points that are DNS based.
     pub hostname: Option<std::string::String>,

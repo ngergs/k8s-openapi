@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.apps.v1.StatefulSetStatus
 
 /// StatefulSetStatus represents the current state of a StatefulSet.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct StatefulSetStatus {
     /// Total number of available pods (ready for at least minReadySeconds) targeted by this statefulset.
     pub available_replicas: Option<i32>,

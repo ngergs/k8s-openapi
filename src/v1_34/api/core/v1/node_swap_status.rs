@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.NodeSwapStatus
 
 /// NodeSwapStatus represents swap memory information.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct NodeSwapStatus {
     /// Total amount of swap memory in bytes.
     pub capacity: Option<i64>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.List
 
 /// List is a list of resources.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct List<T> where T: crate::ListableResource {
     /// List of objects.
     pub items: std::vec::Vec<T>,

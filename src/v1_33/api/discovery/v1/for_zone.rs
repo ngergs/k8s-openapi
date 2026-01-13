@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.discovery.v1.ForZone
 
 /// ForZone provides information about which zones should consume this endpoint.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ForZone {
     /// name represents the name of the zone.
     pub name: std::string::String,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.SleepAction
 
 /// SleepAction describes a "sleep" action.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct SleepAction {
     /// Seconds is the number of seconds to sleep.
     pub seconds: i64,

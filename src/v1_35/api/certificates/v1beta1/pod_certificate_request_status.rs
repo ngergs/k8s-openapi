@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.certificates.v1beta1.PodCertificateRequestStatus
 
 /// PodCertificateRequestStatus describes the status of the request, and holds the certificate data if the request is issued.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodCertificateRequestStatus {
     /// beginRefreshAt is the time at which the kubelet should begin trying to refresh the certificate.  This field is set via the /status subresource, and must be set at the same time as certificateChain.  Once populated, this field is immutable.
     ///

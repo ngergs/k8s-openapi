@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.scheduling.v1alpha1.PodGroup
 
 /// PodGroup represents a set of pods with a common scheduling policy.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodGroup {
     /// Name is a unique identifier for the PodGroup within the Workload. It must be a DNS label. This field is immutable.
     pub name: std::string::String,

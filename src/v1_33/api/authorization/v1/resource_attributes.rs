@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.authorization.v1.ResourceAttributes
 
 /// ResourceAttributes includes the authorization attributes available for resource requests to the Authorizer interface
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourceAttributes {
     /// fieldSelector describes the limitation on access based on field.  It can only limit access, not broaden it.
     ///

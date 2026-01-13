@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ObjectReference
 
 /// ObjectReference contains enough information to let you inspect or modify the referred object.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ObjectReference {
     /// API version of the referent.
     pub api_version: Option<std::string::String>,

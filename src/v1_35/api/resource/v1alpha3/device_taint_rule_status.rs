@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha3.DeviceTaintRuleStatus
 
 /// DeviceTaintRuleStatus provides information about an on-going pod eviction.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct DeviceTaintRuleStatus {
     /// Conditions provide information about the state of the DeviceTaintRule and the cluster at some point in time, in a machine-readable and human-readable format.
     ///

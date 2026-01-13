@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.autoscaling.v2.CrossVersionObjectReference
 
 /// CrossVersionObjectReference contains enough information to let you identify the referred resource.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct CrossVersionObjectReference {
     /// apiVersion is the API version of the referent
     pub api_version: Option<std::string::String>,

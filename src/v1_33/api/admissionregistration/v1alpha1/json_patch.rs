@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.admissionregistration.v1alpha1.JSONPatch
 
 /// JSONPatch defines a JSON Patch.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct JSONPatch {
     /// expression will be evaluated by CEL to create a \[JSON patch\](https://jsonpatch.com/). ref: https://github.com/google/cel-spec
     ///

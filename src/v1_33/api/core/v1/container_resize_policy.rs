@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ContainerResizePolicy
 
 /// ContainerResizePolicy represents resource resize policy for the container.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ContainerResizePolicy {
     /// Name of the resource to which this resource resize policy applies. Supported values: cpu, memory.
     pub resource_name: std::string::String,

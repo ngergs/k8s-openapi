@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1beta1.DeviceTaint
 
 /// The device this taint is attached to has the "effect" on any claim which does not tolerate the taint and, through the claim, to pods using the claim.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct DeviceTaint {
     /// The effect of the taint on claims that do not tolerate the taint and through such claims on the pods using them.
     ///

@@ -1,8 +1,8 @@
 // Generated from definition io.k8s.apimachinery.pkg.apis.meta.v1.MicroTime
 
 /// MicroTime is version of Time with microsecond level precision.
-#[derive(Clone, Debug, Eq, Ord, PartialEq, PartialOrd)]
-pub struct MicroTime(pub crate::jiff::Timestamp);
+#[derive(Clone, Debug, Eq, Ord, PartialEq, PartialOrd, fake::Dummy)]
+pub struct MicroTime(#[dummy(faker="crate::TimestampFaker{}")] pub crate::jiff::Timestamp);
 
 impl crate::DeepMerge for MicroTime {
     fn merge_from(&mut self, other: Self) {

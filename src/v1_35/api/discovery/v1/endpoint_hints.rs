@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.discovery.v1.EndpointHints
 
 /// EndpointHints provides hints describing how an endpoint should be consumed.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct EndpointHints {
     /// forNodes indicates the node(s) this endpoint should be consumed by when using topology aware routing. May contain a maximum of 8 entries.
     pub for_nodes: Option<std::vec::Vec<crate::api::discovery::v1::ForNode>>,

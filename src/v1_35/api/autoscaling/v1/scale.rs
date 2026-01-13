@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.autoscaling.v1.Scale
 
 /// Scale represents a scaling request for a resource.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct Scale {
     /// Standard object metadata; More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata.
     pub metadata: crate::apimachinery::pkg::apis::meta::v1::ObjectMeta,

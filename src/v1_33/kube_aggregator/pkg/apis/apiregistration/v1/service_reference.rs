@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.kube-aggregator.pkg.apis.apiregistration.v1.ServiceReference
 
 /// ServiceReference holds a reference to Service.legacy.k8s.io
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ServiceReference {
     /// Name is the name of the service
     pub name: Option<std::string::String>,

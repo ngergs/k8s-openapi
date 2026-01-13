@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.HostIP
 
 /// HostIP represents a single IP address allocated to the host.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct HostIP {
     /// IP is the IP address assigned to the host
     pub ip: std::string::String,

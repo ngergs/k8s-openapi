@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.flowcontrol.v1.ServiceAccountSubject
 
 /// ServiceAccountSubject holds detailed information for service-account-kind subject.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ServiceAccountSubject {
     /// `name` is the name of matching ServiceAccount objects, or "*" to match regardless of name. Required.
     pub name: std::string::String,

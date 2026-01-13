@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.autoscaling.v2.HPAScalingPolicy
 
 /// HPAScalingPolicy is a single policy which must hold true for a specified past interval.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct HPAScalingPolicy {
     /// periodSeconds specifies the window of time for which the policy should hold true. PeriodSeconds must be greater than zero and less than or equal to 1800 (30 min).
     pub period_seconds: i32,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha3.PodSchedulingContextStatus
 
 /// PodSchedulingContextStatus describes where resources for the Pod can be allocated.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodSchedulingContextStatus {
     /// ResourceClaims describes resource availability for each pod.spec.resourceClaim entry where the corresponding ResourceClaim uses "WaitForFirstConsumer" allocation mode.
     pub resource_claims: Option<std::vec::Vec<crate::api::resource::v1alpha3::ResourceClaimSchedulingStatus>>,
