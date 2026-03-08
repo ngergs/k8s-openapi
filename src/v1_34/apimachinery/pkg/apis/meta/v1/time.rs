@@ -2,7 +2,7 @@
 
 /// Time is a wrapper around time.Time which supports correct marshaling to YAML and JSON.  Wrappers are provided for many of the factory methods that the time package offers.
 #[derive(Clone, Debug, Eq, Ord, PartialEq, PartialOrd, fake::Dummy)]
-pub struct Time(pub crate::jiff::Timestamp);
+pub struct Time(#[dummy(faker="crate::TimestampFaker{}")] pub crate::jiff::Timestamp);
 
 impl crate::DeepMerge for Time {
     fn merge_from(&mut self, other: Self) {
