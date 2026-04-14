@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha3.ResourceClaimSpec
 
 /// ResourceClaimSpec defines what is being requested in a ResourceClaim and how to configure it.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourceClaimSpec {
     /// Controller is the name of the DRA driver that is meant to handle allocation of this claim. If empty, allocation is handled by the scheduler while scheduling a pod.
     ///

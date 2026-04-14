@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1.CustomResourceSubresources
 
 /// CustomResourceSubresources defines the status and scale subresources for CustomResources.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct CustomResourceSubresources {
     /// scale indicates the custom resource should serve a `/scale` subresource that returns an `autoscaling/v1` Scale object.
     pub scale: Option<crate::apiextensions_apiserver::pkg::apis::apiextensions::v1::CustomResourceSubresourceScale>,

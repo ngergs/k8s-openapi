@@ -3,7 +3,7 @@
 /// PodCertificateRequest encodes a pod requesting a certificate from a given signer.
 ///
 /// Kubelets use this API to implement podCertificate projected volumes
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodCertificateRequest {
     /// metadata contains the object metadata.
     pub metadata: crate::apimachinery::pkg::apis::meta::v1::ObjectMeta,

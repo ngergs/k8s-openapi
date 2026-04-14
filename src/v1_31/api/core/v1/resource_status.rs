@@ -1,6 +1,6 @@
 // Generated from definition io.k8s.api.core.v1.ResourceStatus
 
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourceStatus {
     /// Name of the resource. Must be unique within the pod and match one of the resources from the pod spec.
     pub name: std::string::String,

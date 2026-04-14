@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ContainerRestartRuleOnExitCodes
 
 /// ContainerRestartRuleOnExitCodes describes the condition for handling an exited container based on its exit codes.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ContainerRestartRuleOnExitCodes {
     /// Represents the relationship between the container exit code(s) and the specified values. Possible values are: - In: the requirement is satisfied if the container exit code is in the
     ///   set of specified values.

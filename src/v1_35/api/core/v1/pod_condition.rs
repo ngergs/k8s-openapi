@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.PodCondition
 
 /// PodCondition contains details for the current condition of this pod.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodCondition {
     /// Last time we probed the condition.
     pub last_probe_time: Option<crate::apimachinery::pkg::apis::meta::v1::Time>,

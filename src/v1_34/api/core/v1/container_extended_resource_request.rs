@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ContainerExtendedResourceRequest
 
 /// ContainerExtendedResourceRequest has the mapping of container name, extended resource name to the device request name.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ContainerExtendedResourceRequest {
     /// The name of the container requesting resources.
     pub container_name: std::string::String,

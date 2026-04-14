@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.authentication.v1.TokenReviewSpec
 
 /// TokenReviewSpec is a description of the token authentication request.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct TokenReviewSpec {
     /// Audiences is a list of the identifiers that the resource server presented with the token identifies as. Audience-aware token authenticators will verify that the token was intended for at least one of the audiences in this list. If no audiences are provided, the audience will default to the audience of the Kubernetes apiserver.
     pub audiences: Option<std::vec::Vec<std::string::String>>,

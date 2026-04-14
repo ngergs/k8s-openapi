@@ -3,7 +3,7 @@
 /// CapacityRequestPolicy defines how requests consume device capacity.
 ///
 /// Must not set more than one ValidRequestValues.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct CapacityRequestPolicy {
     /// Default specifies how much of this capacity is consumed by a request that does not contain an entry for it in DeviceRequest's Capacity.
     pub default: Option<crate::apimachinery::pkg::api::resource::Quantity>,

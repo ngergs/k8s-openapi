@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.flowcontrol.v1beta3.FlowSchemaStatus
 
 /// FlowSchemaStatus represents the current state of a FlowSchema.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct FlowSchemaStatus {
     /// `conditions` is a list of the current states of FlowSchema.
     pub conditions: Option<std::vec::Vec<crate::api::flowcontrol::v1beta3::FlowSchemaCondition>>,

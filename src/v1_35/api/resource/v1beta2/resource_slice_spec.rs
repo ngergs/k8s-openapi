@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1beta2.ResourceSliceSpec
 
 /// ResourceSliceSpec contains the information published by the driver in one ResourceSlice.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourceSliceSpec {
     /// AllNodes indicates that all nodes have access to the resources in the pool.
     ///

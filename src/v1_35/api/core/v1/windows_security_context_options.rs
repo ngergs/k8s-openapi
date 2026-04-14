@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.WindowsSecurityContextOptions
 
 /// WindowsSecurityContextOptions contain Windows-specific options and credentials.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct WindowsSecurityContextOptions {
     /// GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
     pub gmsa_credential_spec: Option<std::string::String>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.storagemigration.v1beta1.StorageVersionMigrationSpec
 
 /// Spec of the storage version migration.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct StorageVersionMigrationSpec {
     /// The resource that is being migrated. The migrator sends requests to the endpoint serving the resource. Immutable.
     pub resource: crate::apimachinery::pkg::apis::meta::v1::GroupResource,

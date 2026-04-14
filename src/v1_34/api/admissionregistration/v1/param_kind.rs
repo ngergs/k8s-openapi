@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.admissionregistration.v1.ParamKind
 
 /// ParamKind is a tuple of Group Kind and Version.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ParamKind {
     /// APIVersion is the API group version the resources belong to. In format of "group/version". Required.
     pub api_version: Option<std::string::String>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.flowcontrol.v1.PriorityLevelConfiguration
 
 /// PriorityLevelConfiguration represents the configuration of a priority level.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PriorityLevelConfiguration {
     /// `metadata` is the standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
     pub metadata: crate::apimachinery::pkg::apis::meta::v1::ObjectMeta,

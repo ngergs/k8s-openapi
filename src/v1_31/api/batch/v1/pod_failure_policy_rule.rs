@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.batch.v1.PodFailurePolicyRule
 
 /// PodFailurePolicyRule describes how a pod failure is handled when the requirements are met. One of onExitCodes and onPodConditions, but not both, can be used in each rule.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodFailurePolicyRule {
     /// Specifies the action taken on a pod failure when the requirements are satisfied. Possible values are:
     ///

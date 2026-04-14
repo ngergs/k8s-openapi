@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.apps.v1.DeploymentStatus
 
 /// DeploymentStatus is the most recently observed status of the Deployment.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct DeploymentStatus {
     /// Total number of available non-terminating pods (ready for at least minReadySeconds) targeted by this deployment.
     pub available_replicas: Option<i32>,

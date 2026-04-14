@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ResourceHealth
 
 /// ResourceHealth represents the health of a resource. It has the latest device health information. This is a part of KEP https://kep.k8s.io/4680.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourceHealth {
     /// Health of the resource. can be one of:
     ///  - Healthy: operates as normal

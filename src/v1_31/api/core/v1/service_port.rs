@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ServicePort
 
 /// ServicePort contains information on service's port.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ServicePort {
     /// The application protocol for this port. This is used as a hint for implementations to offer richer behavior for protocols that they understand. This field follows standard Kubernetes label syntax. Valid values are either:
     ///

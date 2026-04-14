@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.AzureDiskVolumeSource
 
 /// AzureDisk represents an Azure Data Disk mount on the host and bind mount to the pod.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct AzureDiskVolumeSource {
     /// cachingMode is the Host Caching mode: None, Read Only, Read Write.
     pub caching_mode: Option<std::string::String>,

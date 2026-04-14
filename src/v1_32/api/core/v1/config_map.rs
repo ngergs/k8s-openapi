@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ConfigMap
 
 /// ConfigMap holds configuration data for pods to consume.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ConfigMap {
     /// BinaryData contains the binary data. Each key must consist of alphanumeric characters, '-', '_' or '.'. BinaryData can contain byte sequences that are not in the UTF-8 range. The keys stored in BinaryData must not overlap with the ones in the Data field, this is enforced during validation process. Using this field will require 1.10+ apiserver and kubelet.
     pub binary_data: Option<std::collections::BTreeMap<std::string::String, crate::ByteString>>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.admissionregistration.v1alpha1.ValidatingAdmissionPolicyStatus
 
 /// ValidatingAdmissionPolicyStatus represents the status of a ValidatingAdmissionPolicy.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ValidatingAdmissionPolicyStatus {
     /// The conditions represent the latest available observations of a policy's current state.
     pub conditions: Option<std::vec::Vec<crate::apimachinery::pkg::apis::meta::v1::Condition>>,

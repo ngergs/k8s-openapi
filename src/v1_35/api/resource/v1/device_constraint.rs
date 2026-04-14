@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1.DeviceConstraint
 
 /// DeviceConstraint must have exactly one field set besides Requests.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct DeviceConstraint {
     /// DistinctAttribute requires that all devices in question have this attribute and that its type and value are unique across those devices.
     ///

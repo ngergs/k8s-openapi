@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ContainerUser
 
 /// ContainerUser represents user identity information
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ContainerUser {
     /// Linux holds user identity information initially attached to the first process of the containers in Linux. Note that the actual running identity can be changed if the process has enough privilege to do so.
     pub linux: Option<crate::api::core::v1::LinuxContainerUser>,

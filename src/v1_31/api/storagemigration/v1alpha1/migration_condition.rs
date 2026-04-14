@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.storagemigration.v1alpha1.MigrationCondition
 
 /// Describes the state of a migration at a certain point.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct MigrationCondition {
     /// The last time this condition was updated.
     pub last_update_time: Option<crate::apimachinery::pkg::apis::meta::v1::Time>,

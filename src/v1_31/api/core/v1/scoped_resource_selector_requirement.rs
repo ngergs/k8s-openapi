@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ScopedResourceSelectorRequirement
 
 /// A scoped-resource selector requirement is a selector that contains values, a scope name, and an operator that relates the scope name and values.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ScopedResourceSelectorRequirement {
     /// Represents a scope's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist.
     pub operator: std::string::String,

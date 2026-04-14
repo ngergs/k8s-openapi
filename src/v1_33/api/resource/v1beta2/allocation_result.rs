@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1beta2.AllocationResult
 
 /// AllocationResult contains attributes of an allocated resource.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct AllocationResult {
     /// Devices is the result of allocating devices.
     pub devices: Option<crate::api::resource::v1beta2::DeviceAllocationResult>,

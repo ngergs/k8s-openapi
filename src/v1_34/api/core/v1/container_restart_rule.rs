@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ContainerRestartRule
 
 /// ContainerRestartRule describes how a container exit is handled.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ContainerRestartRule {
     /// Specifies the action taken on a container exit if the requirements are satisfied. The only possible value is "Restart" to restart the container.
     pub action: std::string::String,

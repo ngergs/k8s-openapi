@@ -8,7 +8,7 @@
 ///   - If Step is not set, the requested amount is used as-is if it falls within the range Min to Max (if set).
 ///   - If the requested or rounded amount exceeds Max (if set), the request does not satisfy the policy,
 ///     and the device cannot be allocated.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct CapacityRequestPolicyRange {
     /// Max defines the upper limit for capacity that can be requested.
     ///

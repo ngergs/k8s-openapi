@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.admissionregistration.v1.MutatingWebhookConfiguration
 
 /// MutatingWebhookConfiguration describes the configuration of and admission webhook that accept or reject and may change the object.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct MutatingWebhookConfiguration {
     /// Standard object metadata; More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata.
     pub metadata: crate::apimachinery::pkg::apis::meta::v1::ObjectMeta,

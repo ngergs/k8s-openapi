@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.apimachinery.pkg.apis.meta.v1.Status
 
 /// Status is a return value for calls that don't return other objects.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct Status {
     /// Suggested HTTP return code for this status, 0 if not set.
     pub code: Option<i32>,

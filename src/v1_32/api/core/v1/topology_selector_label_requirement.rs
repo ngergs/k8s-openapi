@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.TopologySelectorLabelRequirement
 
 /// A topology selector requirement is a selector that matches given label. This is an alpha feature and may change in the future.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct TopologySelectorLabelRequirement {
     /// The label key that the selector applies to.
     pub key: std::string::String,

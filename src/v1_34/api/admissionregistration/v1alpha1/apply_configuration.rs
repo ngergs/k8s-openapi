@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.admissionregistration.v1alpha1.ApplyConfiguration
 
 /// ApplyConfiguration defines the desired configuration values of an object.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ApplyConfiguration {
     /// expression will be evaluated by CEL to create an apply configuration. ref: https://github.com/google/cel-spec
     ///

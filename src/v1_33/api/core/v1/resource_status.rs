@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ResourceStatus
 
 /// ResourceStatus represents the status of a single resource allocated to a Pod.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourceStatus {
     /// Name of the resource. Must be unique within the pod and in case of non-DRA resource, match one of the resources from the pod spec. For DRA resources, the value must be "claim:\<claim_name\>/\<request\>". When this status is reported about a container, the "claim_name" and "request" must match one of the claims of this container.
     pub name: std::string::String,

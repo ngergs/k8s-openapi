@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.authorization.v1.NonResourceRule
 
 /// NonResourceRule holds information that describes a rule for the non-resource
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct NonResourceRule {
     /// NonResourceURLs is a set of partial urls that a user should have access to.  *s are allowed, but only as the full, final step in the path.  "*" means all.
     pub non_resource_urls: Option<std::vec::Vec<std::string::String>>,

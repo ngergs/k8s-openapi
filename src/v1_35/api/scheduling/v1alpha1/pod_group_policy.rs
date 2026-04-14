@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.scheduling.v1alpha1.PodGroupPolicy
 
 /// PodGroupPolicy defines the scheduling configuration for a PodGroup.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodGroupPolicy {
     /// Basic specifies that the pods in this group should be scheduled using standard Kubernetes scheduling behavior.
     pub basic: Option<crate::api::scheduling::v1alpha1::BasicSchedulingPolicy>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.SecretKeySelector
 
 /// SecretKeySelector selects a key of a Secret.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct SecretKeySelector {
     /// The key of the secret to select from.  Must be a valid secret key.
     pub key: std::string::String,

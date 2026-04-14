@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ConfigMapKeySelector
 
 /// Selects a key from a ConfigMap.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ConfigMapKeySelector {
     /// The key to select.
     pub key: std::string::String,

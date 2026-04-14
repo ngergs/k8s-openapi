@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.apimachinery.pkg.apis.meta.v1.FieldSelectorRequirement
 
 /// FieldSelectorRequirement is a selector that contains values, a key, and an operator that relates the key and values.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct FieldSelectorRequirement {
     /// key is the field selector key that the requirement applies to.
     pub key: std::string::String,

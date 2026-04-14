@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.networking.v1.HTTPIngressPath
 
 /// HTTPIngressPath associates a path with a backend. Incoming urls matching the path are forwarded to the backend.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct HTTPIngressPath {
     /// backend defines the referenced service endpoint to which the traffic will be forwarded to.
     pub backend: crate::api::networking::v1::IngressBackend,

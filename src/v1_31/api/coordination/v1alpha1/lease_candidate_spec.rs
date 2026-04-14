@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.coordination.v1alpha1.LeaseCandidateSpec
 
 /// LeaseCandidateSpec is a specification of a Lease.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct LeaseCandidateSpec {
     /// BinaryVersion is the binary version. It must be in a semver format without leading `v`. This field is required when strategy is "OldestEmulationVersion"
     pub binary_version: Option<std::string::String>,

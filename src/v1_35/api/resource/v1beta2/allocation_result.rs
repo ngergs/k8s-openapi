@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1beta2.AllocationResult
 
 /// AllocationResult contains attributes of an allocated resource.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct AllocationResult {
     /// AllocationTimestamp stores the time when the resources were allocated. This field is not guaranteed to be set, in which case that time is unknown.
     ///

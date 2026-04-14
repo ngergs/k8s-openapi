@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.EnvVar
 
 /// EnvVar represents an environment variable present in a Container.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct EnvVar {
     /// Name of the environment variable. May consist of any printable ASCII characters except '='.
     pub name: std::string::String,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.scheduling.v1alpha1.WorkloadSpec
 
 /// WorkloadSpec defines the desired state of a Workload.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct WorkloadSpec {
     /// ControllerRef is an optional reference to the controlling object, such as a Deployment or Job. This field is intended for use by tools like CLIs to provide a link back to the original workload definition. When set, it cannot be changed.
     pub controller_ref: Option<crate::api::scheduling::v1alpha1::TypedLocalObjectReference>,

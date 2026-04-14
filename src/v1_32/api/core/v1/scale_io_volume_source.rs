@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ScaleIOVolumeSource
 
 /// ScaleIOVolumeSource represents a persistent ScaleIO volume
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ScaleIOVolumeSource {
     /// fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. "ext4", "xfs", "ntfs". Default is "xfs".
     pub fs_type: Option<std::string::String>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ISCSIVolumeSource
 
 /// Represents an ISCSI disk. ISCSI volumes can only be mounted as read/write once. ISCSI volumes support ownership management and SELinux relabeling.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ISCSIVolumeSource {
     /// chapAuthDiscovery defines whether support iSCSI Discovery CHAP authentication
     pub chap_auth_discovery: Option<bool>,

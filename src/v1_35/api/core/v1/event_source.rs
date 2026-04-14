@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.EventSource
 
 /// EventSource contains information for an event.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct EventSource {
     /// Component from which the event is generated.
     pub component: Option<std::string::String>,
