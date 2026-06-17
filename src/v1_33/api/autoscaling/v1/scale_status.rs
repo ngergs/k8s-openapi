@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.autoscaling.v1.ScaleStatus
 
 /// ScaleStatus represents the current status of a scale subresource.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ScaleStatus {
     /// replicas is the actual number of observed instances of the scaled object.
     pub replicas: i32,

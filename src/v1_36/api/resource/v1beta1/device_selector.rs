@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1beta1.DeviceSelector
 
 /// DeviceSelector must have exactly one field set.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct DeviceSelector {
     /// CEL contains a CEL expression for selecting a device.
     pub cel: Option<crate::api::resource::v1beta1::CELDeviceSelector>,

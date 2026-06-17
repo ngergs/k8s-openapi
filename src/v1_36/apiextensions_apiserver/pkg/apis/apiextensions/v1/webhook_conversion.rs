@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1.WebhookConversion
 
 /// WebhookConversion describes how to call a conversion webhook
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct WebhookConversion {
     /// clientConfig is the instructions for how to call the webhook if strategy is `Webhook`.
     pub client_config: Option<crate::apiextensions_apiserver::pkg::apis::apiextensions::v1::WebhookClientConfig>,

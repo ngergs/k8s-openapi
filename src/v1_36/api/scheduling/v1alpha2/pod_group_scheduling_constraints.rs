@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.scheduling.v1alpha2.PodGroupSchedulingConstraints
 
 /// PodGroupSchedulingConstraints defines scheduling constraints (e.g. topology) for a PodGroup.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodGroupSchedulingConstraints {
     /// Topology defines the topology constraints for the pod group. Currently only a single topology constraint can be specified. This may change in the future.
     pub topology: Option<std::vec::Vec<crate::api::scheduling::v1alpha2::TopologyConstraint>>,

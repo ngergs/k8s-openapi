@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.policy.v1.PodDisruptionBudget
 
 /// PodDisruptionBudget is an object to define the max disruption that can be caused to a collection of pods
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodDisruptionBudget {
     /// Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
     pub metadata: crate::apimachinery::pkg::apis::meta::v1::ObjectMeta,

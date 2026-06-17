@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.HTTPHeader
 
 /// HTTPHeader describes a custom header to be used in HTTP probes
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct HTTPHeader {
     /// The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
     pub name: std::string::String,

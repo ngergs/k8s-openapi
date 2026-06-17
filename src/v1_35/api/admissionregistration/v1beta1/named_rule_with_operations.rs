@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.admissionregistration.v1beta1.NamedRuleWithOperations
 
 /// NamedRuleWithOperations is a tuple of Operations and Resources with ResourceNames.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct NamedRuleWithOperations {
     /// APIGroups is the API groups the resources belong to. '*' is all groups. If '*' is present, the length of the slice must be one. Required.
     pub api_groups: Option<std::vec::Vec<std::string::String>>,

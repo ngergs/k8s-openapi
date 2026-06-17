@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.scheduling.v1alpha1.Workload
 
 /// Workload allows for expressing scheduling constraints that should be used when managing lifecycle of workloads from scheduling perspective, including scheduling, preemption, eviction and other phases.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct Workload {
     /// Standard object's metadata. Name must be a DNS subdomain.
     pub metadata: crate::apimachinery::pkg::apis::meta::v1::ObjectMeta,

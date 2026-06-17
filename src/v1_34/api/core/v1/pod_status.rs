@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.PodStatus
 
 /// PodStatus represents information about the status of a pod. Status may trail the actual state of a system, especially if the node that hosts the pod cannot contact the control plane.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodStatus {
     /// Current service state of pod. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#pod-conditions
     pub conditions: Option<std::vec::Vec<crate::api::core::v1::PodCondition>>,

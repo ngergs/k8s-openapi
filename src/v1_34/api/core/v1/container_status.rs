@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ContainerStatus
 
 /// ContainerStatus contains details for the current status of this container.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ContainerStatus {
     /// AllocatedResources represents the compute resources allocated for this container by the node. Kubelet sets this value to Container.Resources.Requests upon successful pod admission and after successfully admitting desired pod resize.
     pub allocated_resources: Option<std::collections::BTreeMap<std::string::String, crate::apimachinery::pkg::api::resource::Quantity>>,

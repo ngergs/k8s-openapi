@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.VolumeStatus
 
 /// VolumeStatus represents the status of a mounted volume. At most one of its members must be specified.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct VolumeStatus {
     /// image represents an OCI object (a container image or artifact) pulled and mounted on the kubelet's host machine.
     pub image: Option<crate::api::core::v1::ImageVolumeStatus>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.scheduling.v1alpha2.PodGroupTemplate
 
 /// PodGroupTemplate represents a template for a set of pods with a scheduling policy.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodGroupTemplate {
     /// DisruptionMode defines the mode in which a given PodGroup can be disrupted. One of Pod, PodGroup. This field is available only when the WorkloadAwarePreemption feature gate is enabled.
     pub disruption_mode: Option<std::string::String>,

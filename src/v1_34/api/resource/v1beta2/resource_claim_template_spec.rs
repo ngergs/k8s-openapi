@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1beta2.ResourceClaimTemplateSpec
 
 /// ResourceClaimTemplateSpec contains the metadata and fields for a ResourceClaim.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourceClaimTemplateSpec {
     /// ObjectMeta may contain labels and annotations that will be copied into the ResourceClaim when creating it. No other fields are allowed and will be rejected during validation.
     pub metadata: Option<crate::apimachinery::pkg::apis::meta::v1::ObjectMeta>,

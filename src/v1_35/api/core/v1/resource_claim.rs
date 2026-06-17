@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ResourceClaim
 
 /// ResourceClaim references one entry in PodSpec.ResourceClaims.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourceClaim {
     /// Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
     pub name: std::string::String,

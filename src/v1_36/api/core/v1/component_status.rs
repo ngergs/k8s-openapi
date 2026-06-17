@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ComponentStatus
 
 /// ComponentStatus (and ComponentStatusList) holds the cluster validation info. Deprecated: This API is deprecated in v1.19+
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ComponentStatus {
     /// List of component conditions observed
     pub conditions: Option<std::vec::Vec<crate::api::core::v1::ComponentCondition>>,

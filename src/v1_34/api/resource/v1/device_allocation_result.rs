@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1.DeviceAllocationResult
 
 /// DeviceAllocationResult is the result of allocating devices.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct DeviceAllocationResult {
     /// This field is a combination of all the claim and class configuration parameters. Drivers can distinguish between those based on a flag.
     ///

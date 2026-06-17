@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.apimachinery.pkg.apis.meta.v1.APIGroup
 
 /// APIGroup contains the name, the supported versions, and the preferred version of a group.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct APIGroup {
     /// name is the name of the group.
     pub name: std::string::String,

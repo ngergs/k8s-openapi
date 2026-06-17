@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.scheduling.v1alpha2.PodGroupResourceClaimStatus
 
 /// PodGroupResourceClaimStatus is stored in the PodGroupStatus for each PodGroupResourceClaim which references a ResourceClaimTemplate. It stores the generated name for the corresponding ResourceClaim.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodGroupResourceClaimStatus {
     /// Name uniquely identifies this resource claim inside the PodGroup. This must match the name of an entry in podgroup.spec.resourceClaims, which implies that the string must be a DNS_LABEL.
     pub name: std::string::String,

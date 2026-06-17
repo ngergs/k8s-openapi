@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.admissionregistration.v1beta1.ParamRef
 
 /// ParamRef describes how to locate the params to be used as input to expressions of rules applied by a policy binding.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ParamRef {
     /// name is the name of the resource being referenced.
     ///

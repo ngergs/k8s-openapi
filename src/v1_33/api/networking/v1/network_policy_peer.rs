@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.networking.v1.NetworkPolicyPeer
 
 /// NetworkPolicyPeer describes a peer to allow traffic to/from. Only certain combinations of fields are allowed
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct NetworkPolicyPeer {
     /// ipBlock defines policy on a particular IPBlock. If this field is set then neither of the other fields can be.
     pub ip_block: Option<crate::api::networking::v1::IPBlock>,

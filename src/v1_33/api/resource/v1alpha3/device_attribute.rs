@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha3.DeviceAttribute
 
 /// DeviceAttribute must have exactly one field set.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct DeviceAttribute {
     /// BoolValue is a true/false value.
     pub bool: Option<bool>,

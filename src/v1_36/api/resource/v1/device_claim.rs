@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1.DeviceClaim
 
 /// DeviceClaim defines how to request devices with a ResourceClaim.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct DeviceClaim {
     /// This field holds configuration for multiple potential drivers which could satisfy requests in this claim. It is ignored while allocating the claim.
     pub config: Option<std::vec::Vec<crate::api::resource::v1::DeviceClaimConfiguration>>,

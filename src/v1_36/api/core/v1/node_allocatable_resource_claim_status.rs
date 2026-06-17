@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.NodeAllocatableResourceClaimStatus
 
 /// NodeAllocatableResourceClaimStatus describes the status of node allocatable resources allocated via DRA.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct NodeAllocatableResourceClaimStatus {
     /// Containers lists the names of all containers in this pod that reference the claim.
     pub containers: Option<std::vec::Vec<std::string::String>>,

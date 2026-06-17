@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.VolumeMountStatus
 
 /// VolumeMountStatus shows status of volume mounts.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct VolumeMountStatus {
     /// MountPath corresponds to the original VolumeMount.
     pub mount_path: std::string::String,

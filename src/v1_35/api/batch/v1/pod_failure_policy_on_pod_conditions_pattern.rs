@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.batch.v1.PodFailurePolicyOnPodConditionsPattern
 
 /// PodFailurePolicyOnPodConditionsPattern describes a pattern for matching an actual pod condition type.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodFailurePolicyOnPodConditionsPattern {
     /// Specifies the required Pod condition status. To match a pod condition it is required that the specified status equals the pod condition status. Defaults to True.
     pub status: Option<std::string::String>,

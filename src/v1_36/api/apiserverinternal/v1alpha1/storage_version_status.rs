@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.apiserverinternal.v1alpha1.StorageVersionStatus
 
 /// API server instances report the versions they can decode and the version they encode objects to when persisting objects in the backend.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct StorageVersionStatus {
     /// commonEncodingVersion is set to an encoding storage version if all API server instances share that same version. If they don't share one storage version, this field is left empty. API servers should finish updating its storageVersionStatus entry before serving write operations, so that this field will be in sync with the reality.
     pub common_encoding_version: Option<std::string::String>,

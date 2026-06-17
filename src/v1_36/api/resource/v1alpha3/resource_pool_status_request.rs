@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha3.ResourcePoolStatusRequest
 
 /// ResourcePoolStatusRequest triggers a one-time calculation of resource pool status based on the provided filters. Once status is set, the request is considered complete and will not be reprocessed. Users should delete and recreate requests to get updated information.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourcePoolStatusRequest {
     /// Standard object metadata
     pub metadata: crate::apimachinery::pkg::apis::meta::v1::ObjectMeta,

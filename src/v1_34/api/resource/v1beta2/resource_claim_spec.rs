@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1beta2.ResourceClaimSpec
 
 /// ResourceClaimSpec defines what is being requested in a ResourceClaim and how to configure it.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourceClaimSpec {
     /// Devices defines how to request devices.
     pub devices: Option<crate::api::resource::v1beta2::DeviceClaim>,

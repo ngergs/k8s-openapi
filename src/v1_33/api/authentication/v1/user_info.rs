@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.authentication.v1.UserInfo
 
 /// UserInfo holds the information about the user needed to implement the user.Info interface.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct UserInfo {
     /// Any additional information provided by the authenticator.
     pub extra: Option<std::collections::BTreeMap<std::string::String, std::vec::Vec<std::string::String>>>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ContainerState
 
 /// ContainerState holds a possible state of container. Only one of its members may be specified. If none of them is specified, the default one is ContainerStateWaiting.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ContainerState {
     /// Details about a running container
     pub running: Option<crate::api::core::v1::ContainerStateRunning>,

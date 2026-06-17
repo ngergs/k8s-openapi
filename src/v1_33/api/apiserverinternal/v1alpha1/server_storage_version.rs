@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.apiserverinternal.v1alpha1.ServerStorageVersion
 
 /// An API server instance reports the version it can decode and the version it encodes objects to when persisting objects in the backend.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ServerStorageVersion {
     /// The ID of the reporting API server.
     pub api_server_id: Option<std::string::String>,

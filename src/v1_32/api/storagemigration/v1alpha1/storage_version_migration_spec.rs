@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.storagemigration.v1alpha1.StorageVersionMigrationSpec
 
 /// Spec of the storage version migration.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct StorageVersionMigrationSpec {
     /// The token used in the list options to get the next chunk of objects to migrate. When the .status.conditions indicates the migration is "Running", users can use this token to check the progress of the migration.
     pub continue_token: Option<std::string::String>,

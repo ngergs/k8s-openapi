@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.EndpointAddress
 
 /// EndpointAddress is a tuple that describes single IP address. Deprecated: This API is deprecated in v1.33+.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct EndpointAddress {
     /// The Hostname of this endpoint
     pub hostname: Option<std::string::String>,

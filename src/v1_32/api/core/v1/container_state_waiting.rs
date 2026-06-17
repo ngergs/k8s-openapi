@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ContainerStateWaiting
 
 /// ContainerStateWaiting is a waiting state of a container.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ContainerStateWaiting {
     /// Message regarding why the container is not yet running.
     pub message: Option<std::string::String>,

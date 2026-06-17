@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1.ResourceClaim
 
 /// ResourceClaim describes a request for access to resources in the cluster, for use by workloads. For example, if a workload needs an accelerator device with specific properties, this is how that request is expressed. The status stanza tracks whether this claim has been satisfied and what specific resources have been allocated.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourceClaim {
     /// Standard object metadata
     pub metadata: crate::apimachinery::pkg::apis::meta::v1::ObjectMeta,

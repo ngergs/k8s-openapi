@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ModifyVolumeStatus
 
 /// ModifyVolumeStatus represents the status object of ControllerModifyVolume operation
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ModifyVolumeStatus {
     /// status is the status of the ControllerModifyVolume operation. It can be in any of following states:
     ///  - Pending

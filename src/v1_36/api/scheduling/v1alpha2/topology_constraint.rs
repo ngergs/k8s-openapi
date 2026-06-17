@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.scheduling.v1alpha2.TopologyConstraint
 
 /// TopologyConstraint defines a topology constraint for a PodGroup.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct TopologyConstraint {
     /// Key specifies the key of the node label representing the topology domain. All pods within the PodGroup must be colocated within the same domain instance. Different PodGroups can land on different domain instances even if they derive from the same PodGroupTemplate. Examples: "topology.kubernetes.io/rack"
     pub key: std::string::String,

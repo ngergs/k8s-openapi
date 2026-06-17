@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha3.DeviceTaintRuleSpec
 
 /// DeviceTaintRuleSpec specifies the selector and one taint.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct DeviceTaintRuleSpec {
     /// DeviceSelector defines which device(s) the taint is applied to. All selector criteria must be satified for a device to match. The empty selector matches all devices. Without a selector, no devices are matches.
     pub device_selector: Option<crate::api::resource::v1alpha3::DeviceTaintSelector>,

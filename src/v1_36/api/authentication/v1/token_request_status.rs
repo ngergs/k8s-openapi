@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.authentication.v1.TokenRequestStatus
 
 /// TokenRequestStatus is the result of a token request.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct TokenRequestStatus {
     /// expirationTimestamp is the time of expiration of the returned token.
     pub expiration_timestamp: Option<crate::apimachinery::pkg::apis::meta::v1::Time>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.NodeRuntimeHandler
 
 /// NodeRuntimeHandler is a set of runtime handler information.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct NodeRuntimeHandler {
     /// Supported features.
     pub features: Option<crate::api::core::v1::NodeRuntimeHandlerFeatures>,

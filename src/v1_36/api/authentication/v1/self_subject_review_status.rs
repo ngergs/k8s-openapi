@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.authentication.v1.SelfSubjectReviewStatus
 
 /// SelfSubjectReviewStatus is filled by the kube-apiserver and sent back to a user.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct SelfSubjectReviewStatus {
     /// userInfo is a set of attributes belonging to the user making this request.
     pub user_info: Option<crate::api::authentication::v1::UserInfo>,

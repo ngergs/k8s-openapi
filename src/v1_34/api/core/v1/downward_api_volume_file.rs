@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.DownwardAPIVolumeFile
 
 /// DownwardAPIVolumeFile represents information to create the file containing the pod field
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct DownwardAPIVolumeFile {
     /// Required: Selects a field of the pod: only annotations, labels, name, namespace and uid are supported.
     pub field_ref: Option<crate::api::core::v1::ObjectFieldSelector>,

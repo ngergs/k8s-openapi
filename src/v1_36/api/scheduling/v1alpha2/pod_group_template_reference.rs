@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.scheduling.v1alpha2.PodGroupTemplateReference
 
 /// PodGroupTemplateReference references a PodGroup template defined in some object (e.g. Workload). Exactly one reference must be set.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodGroupTemplateReference {
     /// Workload references the PodGroupTemplate within the Workload object that was used to create the PodGroup.
     pub workload: Option<crate::api::scheduling::v1alpha2::WorkloadPodGroupTemplateReference>,

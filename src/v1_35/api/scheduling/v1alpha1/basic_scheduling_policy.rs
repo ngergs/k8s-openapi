@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.scheduling.v1alpha1.BasicSchedulingPolicy
 
 /// BasicSchedulingPolicy indicates that standard Kubernetes scheduling behavior should be used.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct BasicSchedulingPolicy(pub crate::serde_json::Value);
 
 impl crate::DeepMerge for BasicSchedulingPolicy {

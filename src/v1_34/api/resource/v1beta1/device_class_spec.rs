@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1beta1.DeviceClassSpec
 
 /// DeviceClassSpec is used in a \[DeviceClass\] to define what can be allocated and how to configure it.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct DeviceClassSpec {
     /// Config defines configuration parameters that apply to each device that is claimed via this class. Some classses may potentially be satisfied by multiple drivers, so each instance of a vendor configuration applies to exactly one driver.
     ///

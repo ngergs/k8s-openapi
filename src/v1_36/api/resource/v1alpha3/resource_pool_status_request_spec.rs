@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha3.ResourcePoolStatusRequestSpec
 
 /// ResourcePoolStatusRequestSpec defines the filters for the pool status request.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourcePoolStatusRequestSpec {
     /// Driver specifies the DRA driver name to filter pools. Only pools from ResourceSlices with this driver will be included. Must be a DNS subdomain (e.g., "gpu.example.com").
     pub driver: std::string::String,

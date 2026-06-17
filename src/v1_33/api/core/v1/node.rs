@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.Node
 
 /// Node is a worker node in Kubernetes. Each node will have a unique identifier in the cache (i.e. in etcd).
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct Node {
     /// Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
     pub metadata: crate::apimachinery::pkg::apis::meta::v1::ObjectMeta,

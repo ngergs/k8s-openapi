@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.kube-aggregator.pkg.apis.apiregistration.v1.APIServiceSpec
 
 /// APIServiceSpec contains information for locating and communicating with a server. Only https is supported, though you are able to disable certificate verification.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct APIServiceSpec {
     /// CABundle is a PEM encoded CA bundle which will be used to validate an API server's serving certificate. If unspecified, system trust roots on the apiserver are used.
     pub ca_bundle: Option<crate::ByteString>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1beta2.DeviceAllocationConfiguration
 
 /// DeviceAllocationConfiguration gets embedded in an AllocationResult.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct DeviceAllocationConfiguration {
     /// Opaque provides driver-specific configuration parameters.
     pub opaque: Option<crate::api::resource::v1beta2::OpaqueDeviceConfiguration>,

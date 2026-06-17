@@ -3,7 +3,7 @@
 /// AllocatedDeviceStatus contains the status of an allocated device, if the driver chooses to report it. This may include driver-specific information.
 ///
 /// The combination of Driver, Pool, Device, and ShareID must match the corresponding key in Status.Allocation.Devices.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct AllocatedDeviceStatus {
     /// Conditions contains the latest observation of the device's state. If the device has been configured according to the class and claim config references, the `Ready` condition should be True.
     ///

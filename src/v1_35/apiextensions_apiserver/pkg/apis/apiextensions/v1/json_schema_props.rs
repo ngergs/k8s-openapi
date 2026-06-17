@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1.JSONSchemaProps
 
 /// JSONSchemaProps is a JSON-Schema following Specification Draft 4 (http://json-schema.org/).
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct JSONSchemaProps {
     pub ref_path: Option<std::string::String>,
 

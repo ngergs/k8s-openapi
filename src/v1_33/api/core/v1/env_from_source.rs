@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.EnvFromSource
 
 /// EnvFromSource represents the source of a set of ConfigMaps or Secrets
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct EnvFromSource {
     /// The ConfigMap to select from
     pub config_map_ref: Option<crate::api::core::v1::ConfigMapEnvSource>,

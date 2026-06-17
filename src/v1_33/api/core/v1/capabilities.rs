@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.Capabilities
 
 /// Adds and removes POSIX capabilities from running containers.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct Capabilities {
     /// Added capabilities
     pub add: Option<std::vec::Vec<std::string::String>>,

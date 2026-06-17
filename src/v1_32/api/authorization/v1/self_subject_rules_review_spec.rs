@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.authorization.v1.SelfSubjectRulesReviewSpec
 
 /// SelfSubjectRulesReviewSpec defines the specification for SelfSubjectRulesReview.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct SelfSubjectRulesReviewSpec {
     /// Namespace to evaluate rules for. Required.
     pub namespace: Option<std::string::String>,

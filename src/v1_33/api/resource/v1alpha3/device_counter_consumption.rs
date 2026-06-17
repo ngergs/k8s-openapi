@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha3.DeviceCounterConsumption
 
 /// DeviceCounterConsumption defines a set of counters that a device will consume from a CounterSet.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct DeviceCounterConsumption {
     /// CounterSet defines the set from which the counters defined will be consumed.
     pub counter_set: std::string::String,

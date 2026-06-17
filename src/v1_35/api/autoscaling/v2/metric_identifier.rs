@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.autoscaling.v2.MetricIdentifier
 
 /// MetricIdentifier defines the name and optionally selector for a metric
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct MetricIdentifier {
     /// name is the name of the given metric
     pub name: std::string::String,

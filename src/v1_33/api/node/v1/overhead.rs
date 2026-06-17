@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.node.v1.Overhead
 
 /// Overhead structure represents the resource overhead associated with running a pod.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct Overhead {
     /// podFixed represents the fixed resource overhead associated with running a pod.
     pub pod_fixed: Option<std::collections::BTreeMap<std::string::String, crate::apimachinery::pkg::api::resource::Quantity>>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.ContainerPort
 
 /// ContainerPort represents a network port in a single container.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ContainerPort {
     /// Number of port to expose on the pod's IP address. This must be a valid port number, 0 \< x \< 65536.
     pub container_port: i32,

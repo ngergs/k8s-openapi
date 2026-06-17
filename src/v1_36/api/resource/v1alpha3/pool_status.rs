@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha3.PoolStatus
 
 /// PoolStatus contains status information for a single resource pool.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PoolStatus {
     /// AllocatedDevices is the number of devices currently allocated to claims. A value of 0 means no devices are allocated. May be unset when validationError is set.
     pub allocated_devices: Option<i32>,

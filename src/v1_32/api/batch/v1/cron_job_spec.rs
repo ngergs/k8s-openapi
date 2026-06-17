@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.batch.v1.CronJobSpec
 
 /// CronJobSpec describes how the job execution will look like and when it will actually run.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct CronJobSpec {
     /// Specifies how to treat concurrent executions of a Job. Valid values are:
     ///

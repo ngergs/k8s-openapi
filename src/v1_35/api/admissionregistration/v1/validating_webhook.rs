@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.admissionregistration.v1.ValidatingWebhook
 
 /// ValidatingWebhook describes an admission webhook and the resources and operations it applies to.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ValidatingWebhook {
     /// AdmissionReviewVersions is an ordered list of preferred `AdmissionReview` versions the Webhook expects. API server will try to use first version in the list which it supports. If none of the versions specified in this list supported by API server, validation will fail for this object. If a persisted webhook configuration specifies allowed versions and does not include any versions known to the API Server, calls to the webhook will fail and be subject to the failure policy.
     pub admission_review_versions: std::vec::Vec<std::string::String>,

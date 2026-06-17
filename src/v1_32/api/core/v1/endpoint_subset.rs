@@ -11,7 +11,7 @@
 ///
 ///   a: \[ 10.10.1.1:8675, 10.10.2.2:8675 \],
 ///     b: \[ 10.10.1.1:309, 10.10.2.2:309 \]
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct EndpointSubset {
     /// IP addresses which offer the related ports that are marked as ready. These endpoints should be considered safe for load balancers and clients to utilize.
     pub addresses: Option<std::vec::Vec<crate::api::core::v1::EndpointAddress>>,

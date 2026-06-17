@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1beta1.DeviceRequestAllocationResult
 
 /// DeviceRequestAllocationResult contains the allocation result for one request.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct DeviceRequestAllocationResult {
     /// AdminAccess indicates that this device was allocated for administrative access. See the corresponding request field for a definition of mode.
     ///

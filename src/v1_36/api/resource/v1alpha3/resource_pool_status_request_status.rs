@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1alpha3.ResourcePoolStatusRequestStatus
 
 /// ResourcePoolStatusRequestStatus contains the calculated pool status information.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourcePoolStatusRequestStatus {
     /// Conditions provide information about the state of the request. A condition with type=Complete or type=Failed will always be set when the status is populated.
     ///

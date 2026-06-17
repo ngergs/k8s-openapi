@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.scheduling.v1alpha2.PodGroupStatus
 
 /// PodGroupStatus represents information about the status of a pod group.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodGroupStatus {
     /// Conditions represent the latest observations of the PodGroup's state.
     ///

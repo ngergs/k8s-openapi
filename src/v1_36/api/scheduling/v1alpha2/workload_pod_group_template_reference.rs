@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.scheduling.v1alpha2.WorkloadPodGroupTemplateReference
 
 /// WorkloadPodGroupTemplateReference references the PodGroupTemplate within the Workload object.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct WorkloadPodGroupTemplateReference {
     /// PodGroupTemplateName defines the PodGroupTemplate name within the Workload object.
     pub pod_group_template_name: std::string::String,

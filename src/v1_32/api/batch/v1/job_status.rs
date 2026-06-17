@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.batch.v1.JobStatus
 
 /// JobStatus represents the current state of a Job.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct JobStatus {
     /// The number of pending and running pods which are not terminating (without a deletionTimestamp). The value is zero for finished jobs.
     pub active: Option<i32>,

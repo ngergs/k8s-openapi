@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.discovery.v1.EndpointHints
 
 /// EndpointHints provides hints describing how an endpoint should be consumed.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct EndpointHints {
     /// forZones indicates the zone(s) this endpoint should be consumed by to enable topology aware routing.
     pub for_zones: Option<std::vec::Vec<crate::api::discovery::v1::ForZone>>,

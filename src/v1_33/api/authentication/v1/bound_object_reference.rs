@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.authentication.v1.BoundObjectReference
 
 /// BoundObjectReference is a reference to an object that a token is bound to.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct BoundObjectReference {
     /// API version of the referent.
     pub api_version: Option<std::string::String>,

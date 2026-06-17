@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.apimachinery.pkg.apis.meta.v1.APIGroupList
 
 /// APIGroupList is a list of APIGroup, to allow clients to discover the API at /apis.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct APIGroupList {
     /// groups is a list of APIGroup.
     pub groups: std::vec::Vec<crate::apimachinery::pkg::apis::meta::v1::APIGroup>,

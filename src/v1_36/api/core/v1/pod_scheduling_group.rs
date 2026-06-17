@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.core.v1.PodSchedulingGroup
 
 /// PodSchedulingGroup identifies the runtime scheduling group instance that a Pod belongs to. The scheduler uses this information to apply workload-aware scheduling semantics. Exactly one field must be specified.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct PodSchedulingGroup {
     /// PodGroupName specifies the name of the standalone PodGroup object that represents the runtime instance of this group. Must be a DNS subdomain.
     pub pod_group_name: Option<std::string::String>,

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1.Device
 
 /// Device represents one individual hardware instance that can be selected based on its attributes. Besides the name, exactly one field must be set.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct Device {
     /// AllNodes indicates that all nodes have access to the device.
     ///

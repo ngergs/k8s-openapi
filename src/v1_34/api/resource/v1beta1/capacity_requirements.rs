@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1beta1.CapacityRequirements
 
 /// CapacityRequirements defines the capacity requirements for a specific device request.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct CapacityRequirements {
     /// Requests represent individual device resource requests for distinct resources, all of which must be provided by the device.
     ///

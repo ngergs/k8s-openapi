@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1.CELDeviceSelector
 
 /// CELDeviceSelector contains a CEL expression for selecting a device.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct CELDeviceSelector {
     /// Expression is a CEL expression which evaluates a single device. It must evaluate to true when the device under consideration satisfies the desired criteria, and false when it does not. Any other result is an error and causes allocation of devices to abort.
     ///

@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.admissionregistration.v1.ExpressionWarning
 
 /// ExpressionWarning is a warning information that targets a specific expression.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ExpressionWarning {
     /// The path to the field that refers the expression. For example, the reference to the expression of the first item of validations is "spec.validations\[0\].expression"
     pub field_ref: std::string::String,

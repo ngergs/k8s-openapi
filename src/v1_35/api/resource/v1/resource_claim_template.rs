@@ -3,7 +3,7 @@
 /// ResourceClaimTemplate is used to produce ResourceClaim objects.
 ///
 /// This is an alpha type and requires enabling the DynamicResourceAllocation feature gate.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourceClaimTemplate {
     /// Standard object metadata
     pub metadata: crate::apimachinery::pkg::apis::meta::v1::ObjectMeta,

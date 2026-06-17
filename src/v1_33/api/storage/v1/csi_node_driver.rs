@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.storage.v1.CSINodeDriver
 
 /// CSINodeDriver holds information about the specification of one CSI driver installed on a node
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct CSINodeDriver {
     /// allocatable represents the volume resources of a node that are available for scheduling. This field is beta.
     pub allocatable: Option<crate::api::storage::v1::VolumeNodeResources>,

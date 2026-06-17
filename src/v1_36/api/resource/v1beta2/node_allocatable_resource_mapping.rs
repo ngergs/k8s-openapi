@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.resource.v1beta2.NodeAllocatableResourceMapping
 
 /// NodeAllocatableResourceMapping defines the translation between the DRA device/capacity units requested to the corresponding quantity of the node allocatable resource.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct NodeAllocatableResourceMapping {
     /// AllocationMultiplier is used as a multiplier for the allocated device count or the allocated capacity in the claim. It defaults to 1 if not specified. How the field is used also depends on whether `capacityKey` is set. 1.  If `capacityKey` is NOT set: `allocationMultiplier` multiplies the device count allocated to the claim.
     ///        a. A DRA driver representing each CPU core as a device would have

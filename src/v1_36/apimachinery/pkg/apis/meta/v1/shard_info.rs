@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.apimachinery.pkg.apis.meta.v1.ShardInfo
 
 /// ShardInfo describes the shard selector that was applied to produce a list response. Its presence on a list response indicates the list is a filtered subset.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ShardInfo {
     /// selector is the shard selector string from the request, echoed back so clients can verify which shard they received and merge responses from multiple shards.
     pub selector: std::string::String,

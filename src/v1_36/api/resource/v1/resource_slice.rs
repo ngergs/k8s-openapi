@@ -9,7 +9,7 @@
 /// When allocating all resources in a pool matching certain criteria or when looking for the best solution among several different alternatives, a consumer should check the number of ResourceSlices in a pool (included in each ResourceSlice) to determine whether its view of a pool is complete and if not, should wait until the driver has completed updating the pool.
 ///
 /// For resources that are not local to a node, the node name is not set. Instead, the driver may use a node selector to specify where the devices are available.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct ResourceSlice {
     /// Standard object metadata
     pub metadata: crate::apimachinery::pkg::apis::meta::v1::ObjectMeta,

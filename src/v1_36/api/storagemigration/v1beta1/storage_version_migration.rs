@@ -1,7 +1,7 @@
 // Generated from definition io.k8s.api.storagemigration.v1beta1.StorageVersionMigration
 
 /// StorageVersionMigration represents a migration of stored data to the latest storage version.
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq, fake::Dummy)]
 pub struct StorageVersionMigration {
     /// Standard object metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
     pub metadata: crate::apimachinery::pkg::apis::meta::v1::ObjectMeta,
